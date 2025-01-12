@@ -1,0 +1,10 @@
+-I/home/ljy/Doc1/mycode/1010101010/appdesign_4/build
+-I/usr/local/include
+-I/usr/local/include/opencv
+-I/usr/local/include/opencv2
+-I/home/ljy/software/onnxruntime/include/onnxruntime/core/session
+-I/home/ljy/software/onnxruntime/include
+-I/home/ljy/Doc1/mycode/1010101010/appdesign_4/include
+-o
+/home/ljy/Doc1/mycode/1010101010/appdesign_4/build/include/moc_packet_transmission.cpp
+/home/ljy/Doc1/mycode/1010101010/appdesign_4/include/packet_transmission.h

@@ -1,0 +1,239 @@
+#include "mysql_test.h"
+
+#include <QtSql/QSqlDatabase>
+#include <QtSql/QSqlQuery>
+#include <QtSql/QSqlRecord>
+#include <QDebug>
+#include <QSqlError>
+#include <QSqlQuery>
+
+
+
+MysqlTool::MysqlTool(const QString& host, int port, const QString& dbName, const QString& user, const QString& password) {
+    db_ = QSqlDatabase::addDatabase("QMYSQL");
+    db_.setHostName(host);
+    db_.setPort(port);
+    db_.setUserName(user);
+    db_.setPassword(password);
+
+    // 初始不连接具体数据库
+    if (!db_.open()) {
+        qDebug() << "Failed to connect to database server:" << db_.lastError().text();
+    }
+}
+
+bool MysqlTool::createDatabase(const QString& dbName) {
+    QSqlQuery query(db_);
+    QString sql = QString("CREATE DATABASE IF NOT EXISTS %1").arg(dbName);
+
+    if (!query.exec(sql)) {
+        qDebug() << "Failed to create database:" << query.lastError().text();
+        return false;
+    }
+
+    // 切换到新创建的数据库
+    setDatabase(dbName);
+    return true;
+}
+
+void MysqlTool::setDatabase(const QString& dbName) {
+    if (db_.isOpen()) {
+        db_.close();
+    }
+    db_.setDatabaseName(dbName);
+    if (!db_.open()) {
+        qDebug() << "Failed to connect to database:" << db_.lastError().text();
+    }
+}
+
+
+
+MysqlTool::~MysqlTool()
+{
+    // 关闭数据库连接
+    db_.close();
+}
+
+bool MysqlTool::createTable(const QString& tableName, const QStringList& fields)
+{
+    QString sql = QString("CREATE TABLE IF NOT EXISTS %1 (%2)").arg(tableName).arg(fields.join(", "));
+    QSqlQuery query;
+    if (!query.exec(sql)) {
+        qDebug() << "Failed to create table:" << query.lastError().text();
+        return false;
+    }
+    return true;
+}
+
+bool MysqlTool::insertData(const QString& tableName, const QStringList& fields, const QList<QVariant>& values) {
+    // 将 values 转换为字符串，并拼接成 SQL 需要的格式
+    QStringList valueStrings;
+    for (const QVariant& value : values) {
+        // 如果是字符串，需要添加引号
+        if (value.type() == QVariant::String) {
+            valueStrings.append(QString("'%1'").arg(value.toString()));
+        } else {
+            valueStrings.append(value.toString());
+        }
+    }
+
+    // 构建 SQL 语句
+    QString sql = QString("INSERT INTO %1 (%2) VALUES (%3)")
+                      .arg(tableName)
+                      .arg(fields.join(", "))  // 拼接字段名
+                      .arg(valueStrings.join(", "));  // 拼接值列表
+
+    QSqlQuery query;
+    if (!query.exec(sql)) {
+        qDebug() << "Failed to insert data:" << query.lastError().text();
+        return false;
+    }
+
+    return true;
+}
+
+
+bool MysqlTool::deleteData(const QString& tableName, const QString& condition)
+{
+    QString sql = QString("DELETE FROM %1 WHERE %2").arg(tableName).arg(condition);
+    QSqlQuery query;
+    if (!query.exec(sql)) {
+        qDebug() << "Failed to delete data:" << query.lastError().text();
+        return false;
+    }
+    return true;
+}
+
+bool MysqlTool::updateData(const QString& tableName, const QString& setClause, const QString& condition)
+{
+    QString sql = QString("UPDATE %1 SET %2 WHERE %3").arg(tableName).arg(setClause).arg(condition);
+    QSqlQuery query;
+    if (!query.exec(sql)) {
+        qDebug() << "Failed to update data:" << query.lastError().text();
+        return false;
+    }
+    return true;
+}
+
+bool MysqlTool::selectData(const QString& tableName,
+                           const QStringList& fields,
+                           const QString& condition,
+                           QList<QVariantList>& result) {
+    // 构建基本的 SELECT 语句
+    QString queryStr = QString("SELECT %1 FROM %2")
+                       .arg(fields.join(", "))
+                       .arg(tableName);
+
+    // 添加 WHERE 子句（只有在 condition 非空时）
+    if (!condition.isEmpty()) {
+        queryStr += QString(" WHERE %1").arg(condition);
+    }
+
+    // 打印 SQL 语句，调试用
+    qDebug() << "Executing SQL:" << queryStr;
+
+    // 执行查询
+    QSqlQuery query;
+    if (!query.exec(queryStr)) {
+        qDebug() << "SQL Execution Failed:" << query.lastError().text();
+        return false;
+    }
+
+    // 解析查询结果
+    while (query.next()) {
+        QVariantList row;
+        for (int i = 0; i < fields.size(); ++i) {
+            row.append(query.value(i));
+        }
+        result.append(row);
+    }
+    return true;
+}
+
+
+QStringList MysqlTool::getFields(const QString& tableName)
+{
+    QStringList result;
+    QSqlRecord record = db_.record(tableName);
+    for (int i = 0; i < record.count(); ++i) {
+        result.append(record.fieldName(i));
+    }
+    return result;
+}
+
+bool MysqlTool::execute(const QString& query) {
+    QSqlQuery sqlQuery;
+    if (!sqlQuery.exec(query)) {
+        qDebug() << "SQL Execution Failed:" << sqlQuery.lastError().text();
+        return false;
+    }
+    return true;
+}
+void MysqlTool::mysqlmain(MysqlTool mysql, QString databaseName, int index, QVector<int> datas) {
+    // 检查并创建数据库
+    if (!mysql.createDatabase(databaseName)) {
+        qDebug() << "Failed to create or select database!";
+        return;
+    }
+
+    // 切换到目标数据库
+    mysql.setDatabase(databaseName);
+
+    // 拼接 DROP TABLE 语句
+    QString dropTableQuery = QString("DROP TABLE IF EXISTS %1").arg(databaseName);
+
+    // 执行 DROP TABLE 语句
+    if (!mysql.execute(dropTableQuery)) {
+        qDebug() << "Failed to drop table:" << databaseName;
+        return;
+    }
+
+    // 创建表
+    QStringList fields = {"times INT", "data TEXT"}; // 使用 TEXT 类型存储序列化后的 QVector<int>
+    if (!mysql.createTable(databaseName, fields)) {
+        qDebug() << "Failed to create table!";
+        return;
+    }
+
+    // 准备插入的数据
+    QString dataString;
+    for (int i = 0; i < datas.size(); ++i) {
+        dataString += QString::number(datas[i]);
+        if (i != datas.size() - 1) {
+            dataString += ","; // 以逗号分隔
+        }
+    }
+
+    // 插入数据
+    QStringList insertFields = {"times", "data"};
+    QVariantList insertValues = {index, dataString};
+    if (!mysql.insertData(databaseName, insertFields, insertValues)) {
+        qDebug() << "Failed to insert data!";
+        return;
+    }
+
+    // 查询数据
+    QStringList selectFields = {"times", "data"};
+    QList<QVariantList> selectResult;
+
+    if (!mysql.selectData(databaseName, selectFields, "", selectResult)) {
+        qDebug() << "Failed to select data!";
+        return;
+    }
+
+    // 打印查询结果并将 QString 反序列化为 QVector<int>
+//    for (const auto& record : selectResult) {
+//        int times = record[0].toInt();
+//        QString data = record[1].toString();
+
+//        // 将 QString 转换回 QVector<int>
+//        QVector<int> retrievedVector;
+//        for (const QString& value : data.split(",")) {
+//            retrievedVector.append(value.toInt());
+//        }
+
+//        qDebug() << "times:" << times << "，data (vector):" << retrievedVector;
+//    }
+}
+
+

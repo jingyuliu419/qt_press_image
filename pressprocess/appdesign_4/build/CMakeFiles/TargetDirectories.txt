@@ -1,0 +1,7 @@
+/home/ljy/Doc1/mycode/1010101010/appdesign_4/build/CMakeFiles/AppDesign.dir
+/home/ljy/Doc1/mycode/1010101010/appdesign_4/build/CMakeFiles/edit_cache.dir
+/home/ljy/Doc1/mycode/1010101010/appdesign_4/build/CMakeFiles/rebuild_cache.dir
+/home/ljy/Doc1/mycode/1010101010/appdesign_4/build/CMakeFiles/list_install_components.dir
+/home/ljy/Doc1/mycode/1010101010/appdesign_4/build/CMakeFiles/install.dir
+/home/ljy/Doc1/mycode/1010101010/appdesign_4/build/CMakeFiles/install/local.dir
+/home/ljy/Doc1/mycode/1010101010/appdesign_4/build/CMakeFiles/install/strip.dir
