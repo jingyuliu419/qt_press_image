@@ -1,7 +1,7 @@
 CMakeFiles/AppDesign.dir/src/databaseworker.cpp.o: \
- /home/ljy/Doc1/mycode/1010101010/appdesign_4/src/databaseworker.cpp \
+ /home/ljy/project/qt_press_image/pressprocess/appdesign_4/src/databaseworker.cpp \
  /usr/include/stdc-predef.h \
- /home/ljy/Doc1/mycode/1010101010/appdesign_4/include/databaseworker.h \
+ /home/ljy/project/qt_press_image/pressprocess/appdesign_4/include/databaseworker.h \
  /home/ljy/Qt5.14.2/5.14.2/gcc_64/include/QtCore/QObject \
  /home/ljy/Qt5.14.2/5.14.2/gcc_64/include/QtCore/qobject.h \
  /home/ljy/Qt5.14.2/5.14.2/gcc_64/include/QtCore/qobjectdefs.h \
@@ -264,7 +264,7 @@ CMakeFiles/AppDesign.dir/src/databaseworker.cpp.o: \
  /home/ljy/Qt5.14.2/5.14.2/gcc_64/include/QtCore/qcontiguouscache.h \
  /home/ljy/Qt5.14.2/5.14.2/gcc_64/include/QtCore/qsharedpointer.h \
  /home/ljy/Qt5.14.2/5.14.2/gcc_64/include/QtCore/qsharedpointer_impl.h \
- /home/ljy/Doc1/mycode/1010101010/appdesign_4/include/mysql_test.h \
+ /home/ljy/project/qt_press_image/pressprocess/appdesign_4/include/mysql_test.h \
  /home/ljy/Qt5.14.2/5.14.2/gcc_64/include/QtSql/QSqlDatabase \
  /home/ljy/Qt5.14.2/5.14.2/gcc_64/include/QtSql/qsqldatabase.h \
  /home/ljy/Qt5.14.2/5.14.2/gcc_64/include/QtSql/qtsqlglobal.h \
@@ -274,4 +274,4 @@ CMakeFiles/AppDesign.dir/src/databaseworker.cpp.o: \
  /home/ljy/Qt5.14.2/5.14.2/gcc_64/include/QtSql/qsqldatabase.h \
  /home/ljy/Qt5.14.2/5.14.2/gcc_64/include/QtSql/QSqlRecord \
  /home/ljy/Qt5.14.2/5.14.2/gcc_64/include/QtSql/qsqlrecord.h \
- /home/ljy/Doc1/mycode/1010101010/appdesign_4/include/mysql_test.h
+ /home/ljy/project/qt_press_image/pressprocess/appdesign_4/include/mysql_test.h

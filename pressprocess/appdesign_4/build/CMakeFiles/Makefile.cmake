@@ -7,10 +7,6 @@ set(CMAKE_DEPENDS_GENERATOR "Unix Makefiles")
 # The top level Makefile was generated from the following files:
 set(CMAKE_MAKEFILE_DEPENDS
   "CMakeCache.txt"
-  "/home/ljy/Doc1/mycode/1010101010/appdesign_4/CMakeLists.txt"
-  "CMakeFiles/3.31.0/CMakeCCompiler.cmake"
-  "CMakeFiles/3.31.0/CMakeCXXCompiler.cmake"
-  "CMakeFiles/3.31.0/CMakeSystem.cmake"
   "/home/ljy/Qt5.14.2/5.14.2/gcc_64/lib/cmake/Qt5/Qt5Config.cmake"
   "/home/ljy/Qt5.14.2/5.14.2/gcc_64/lib/cmake/Qt5/Qt5ConfigVersion.cmake"
   "/home/ljy/Qt5.14.2/5.14.2/gcc_64/lib/cmake/Qt5/Qt5ModuleLocation.cmake"
@@ -84,6 +80,10 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/home/ljy/Qt5.14.2/5.14.2/gcc_64/lib/cmake/Qt5Widgets/Qt5WidgetsConfigExtras.cmake"
   "/home/ljy/Qt5.14.2/5.14.2/gcc_64/lib/cmake/Qt5Widgets/Qt5WidgetsConfigVersion.cmake"
   "/home/ljy/Qt5.14.2/5.14.2/gcc_64/lib/cmake/Qt5Widgets/Qt5WidgetsMacros.cmake"
+  "/home/ljy/project/qt_press_image/pressprocess/appdesign_4/CMakeLists.txt"
+  "CMakeFiles/3.31.0/CMakeCCompiler.cmake"
+  "CMakeFiles/3.31.0/CMakeCXXCompiler.cmake"
+  "CMakeFiles/3.31.0/CMakeSystem.cmake"
   "/usr/local/share/cmake-3.31/Modules/CMakeCCompiler.cmake.in"
   "/usr/local/share/cmake-3.31/Modules/CMakeCCompilerABI.c"
   "/usr/local/share/cmake-3.31/Modules/CMakeCInformation.cmake"

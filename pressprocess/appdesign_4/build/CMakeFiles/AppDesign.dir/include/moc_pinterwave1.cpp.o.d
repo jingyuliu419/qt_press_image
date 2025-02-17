@@ -1,5 +1,5 @@
 CMakeFiles/AppDesign.dir/include/moc_pinterwave1.cpp.o: \
- /home/ljy/Doc1/mycode/1010101010/appdesign_4/build/include/moc_pinterwave1.cpp \
+ /home/ljy/project/qt_press_image/pressprocess/appdesign_4/build/include/moc_pinterwave1.cpp \
  /usr/include/stdc-predef.h /usr/include/c++/9/memory \
  /usr/include/c++/9/bits/stl_algobase.h \
  /usr/include/x86_64-linux-gnu/c++/9/bits/c++config.h \
@@ -141,7 +141,7 @@ CMakeFiles/AppDesign.dir/include/moc_pinterwave1.cpp.o: \
  /usr/include/c++/9/backward/auto_ptr.h \
  /usr/include/c++/9/pstl/glue_memory_defs.h \
  /usr/include/c++/9/pstl/execution_defs.h \
- /home/ljy/Doc1/mycode/1010101010/appdesign_4/build/include/../../include/pinterwave1.h \
+ /home/ljy/project/qt_press_image/pressprocess/appdesign_4/build/include/../../include/pinterwave1.h \
  /home/ljy/Qt5.14.2/5.14.2/gcc_64/include/QtWidgets/QWidget \
  /home/ljy/Qt5.14.2/5.14.2/gcc_64/include/QtWidgets/qwidget.h \
  /home/ljy/Qt5.14.2/5.14.2/gcc_64/include/QtWidgets/qtwidgetsglobal.h \
@@ -289,7 +289,7 @@ CMakeFiles/AppDesign.dir/include/moc_pinterwave1.cpp.o: \
  /usr/include/c++/9/bits/unique_lock.h /usr/include/c++/9/thread \
  /usr/include/c++/9/condition_variable \
  /usr/include/c++/9/bits/atomic_futex.h \
- /home/ljy/Doc1/mycode/1010101010/appdesign_4/build/include/../../include/mainwindow.h \
+ /home/ljy/project/qt_press_image/pressprocess/appdesign_4/build/include/../../include/mainwindow.h \
  /home/ljy/Qt5.14.2/5.14.2/gcc_64/include/QtWidgets/QMainWindow \
  /home/ljy/Qt5.14.2/5.14.2/gcc_64/include/QtWidgets/qmainwindow.h \
  /home/ljy/Qt5.14.2/5.14.2/gcc_64/include/QtWidgets/qwidget.h \
@@ -489,7 +489,7 @@ CMakeFiles/AppDesign.dir/include/moc_pinterwave1.cpp.o: \
  /usr/local/include/opencv2/videostab/deblurring.hpp \
  /usr/local/include/opencv2/videostab/wobble_suppression.hpp \
  /usr/local/include/opencv2/videostab/ring_buffer.hpp \
- /home/ljy/Doc1/mycode/1010101010/appdesign_4/build/include/../../include/grid_layout_panel.h \
+ /home/ljy/project/qt_press_image/pressprocess/appdesign_4/build/include/../../include/grid_layout_panel.h \
  /home/ljy/Qt5.14.2/5.14.2/gcc_64/include/QtGui/QPixmap \
  /home/ljy/Qt5.14.2/5.14.2/gcc_64/include/QtGui/qpixmap.h \
  /home/ljy/Qt5.14.2/5.14.2/gcc_64/include/QtWidgets/QFileDialog \
@@ -516,8 +516,8 @@ CMakeFiles/AppDesign.dir/include/moc_pinterwave1.cpp.o: \
  /home/ljy/Qt5.14.2/5.14.2/gcc_64/include/QtWidgets/qabstractbutton.h \
  /home/ljy/Qt5.14.2/5.14.2/gcc_64/include/QtGui/QPainter \
  /home/ljy/Qt5.14.2/5.14.2/gcc_64/include/QtGui/qpainter.h \
- /home/ljy/Doc1/mycode/1010101010/appdesign_4/build/include/../../include/picture_process.h \
- /home/ljy/Doc1/mycode/1010101010/appdesign_4/build/include/../../include/presssensor.h \
+ /home/ljy/project/qt_press_image/pressprocess/appdesign_4/build/include/../../include/picture_process.h \
+ /home/ljy/project/qt_press_image/pressprocess/appdesign_4/build/include/../../include/presssensor.h \
  /home/ljy/Qt5.14.2/5.14.2/gcc_64/include/QtCore/QObject \
  /home/ljy/Qt5.14.2/5.14.2/gcc_64/include/QtCore/qobject.h \
  /home/ljy/Qt5.14.2/5.14.2/gcc_64/include/QtNetwork/QTcpServer \
@@ -536,7 +536,7 @@ CMakeFiles/AppDesign.dir/include/moc_pinterwave1.cpp.o: \
  /home/ljy/Qt5.14.2/5.14.2/gcc_64/include/QtCore/qdatetime.h \
  /home/ljy/Qt5.14.2/5.14.2/gcc_64/include/QtCore/QMetaType \
  /home/ljy/Qt5.14.2/5.14.2/gcc_64/include/QtCore/qmetatype.h \
- /home/ljy/Doc1/mycode/1010101010/appdesign_4/build/include/../../include/audioplayer.h \
+ /home/ljy/project/qt_press_image/pressprocess/appdesign_4/build/include/../../include/audioplayer.h \
  /home/ljy/Qt5.14.2/5.14.2/gcc_64/include/QtMultimedia/QMediaPlayer \
  /home/ljy/Qt5.14.2/5.14.2/gcc_64/include/QtMultimedia/qmediaplayer.h \
  /home/ljy/Qt5.14.2/5.14.2/gcc_64/include/QtMultimedia/qmediaobject.h \
@@ -565,12 +565,12 @@ CMakeFiles/AppDesign.dir/include/moc_pinterwave1.cpp.o: \
  /home/ljy/Qt5.14.2/5.14.2/gcc_64/include/QtCore/QTimer \
  /home/ljy/Qt5.14.2/5.14.2/gcc_64/include/QtCore/qtimer.h \
  /home/ljy/Qt5.14.2/5.14.2/gcc_64/include/QtCore/qbasictimer.h \
- /home/ljy/Doc1/mycode/1010101010/appdesign_4/build/include/../../include/worker.h \
+ /home/ljy/project/qt_press_image/pressprocess/appdesign_4/build/include/../../include/worker.h \
  /home/ljy/software/onnxruntime/include/onnxruntime/core/providers/cpu/cpu_provider_factory.h \
  /home/ljy/software/onnxruntime/include/onnxruntime/core/session/onnxruntime_c_api.h \
  /home/ljy/software/onnxruntime/include/onnxruntime/core/session/onnxruntime_cxx_api.h \
  /home/ljy/software/onnxruntime/include/onnxruntime/core/session/onnxruntime_cxx_inline.h \
- /home/ljy/Doc1/mycode/1010101010/appdesign_4/build/include/../../include/mysql_test.h \
+ /home/ljy/project/qt_press_image/pressprocess/appdesign_4/build/include/../../include/mysql_test.h \
  /home/ljy/Qt5.14.2/5.14.2/gcc_64/include/QtSql/QSqlDatabase \
  /home/ljy/Qt5.14.2/5.14.2/gcc_64/include/QtSql/qsqldatabase.h \
  /home/ljy/Qt5.14.2/5.14.2/gcc_64/include/QtSql/qtsqlglobal.h \

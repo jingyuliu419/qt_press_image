@@ -53,10 +53,10 @@ RM = /usr/local/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ljy/Doc1/mycode/1010101010/appdesign_4
+CMAKE_SOURCE_DIR = /home/ljy/project/qt_press_image/pressprocess/appdesign_4
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ljy/Doc1/mycode/1010101010/appdesign_4/build
+CMAKE_BINARY_DIR = /home/ljy/project/qt_press_image/pressprocess/appdesign_4/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/AppDesign.dir/depend.make
@@ -69,410 +69,410 @@ include CMakeFiles/AppDesign.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/AppDesign.dir/flags.make
 
-ui_mainwindow.h: /home/ljy/Doc1/mycode/1010101010/appdesign_4/forms/mainwindow.ui
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/ljy/Doc1/mycode/1010101010/appdesign_4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating ui_mainwindow.h"
-	/home/ljy/Qt5.14.2/5.14.2/gcc_64/bin/uic -o /home/ljy/Doc1/mycode/1010101010/appdesign_4/build/ui_mainwindow.h /home/ljy/Doc1/mycode/1010101010/appdesign_4/forms/mainwindow.ui
+ui_mainwindow.h: /home/ljy/project/qt_press_image/pressprocess/appdesign_4/forms/mainwindow.ui
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/ljy/project/qt_press_image/pressprocess/appdesign_4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating ui_mainwindow.h"
+	/home/ljy/Qt5.14.2/5.14.2/gcc_64/bin/uic -o /home/ljy/project/qt_press_image/pressprocess/appdesign_4/build/ui_mainwindow.h /home/ljy/project/qt_press_image/pressprocess/appdesign_4/forms/mainwindow.ui
 
-include/moc_audioplayer.cpp: /home/ljy/Doc1/mycode/1010101010/appdesign_4/include/audioplayer.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/ljy/Doc1/mycode/1010101010/appdesign_4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating include/moc_audioplayer.cpp"
-	cd /home/ljy/Doc1/mycode/1010101010/appdesign_4/build/include && /home/ljy/Qt5.14.2/5.14.2/gcc_64/bin/moc @/home/ljy/Doc1/mycode/1010101010/appdesign_4/build/include/moc_audioplayer.cpp_parameters
+include/moc_audioplayer.cpp: /home/ljy/project/qt_press_image/pressprocess/appdesign_4/include/audioplayer.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/ljy/project/qt_press_image/pressprocess/appdesign_4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating include/moc_audioplayer.cpp"
+	cd /home/ljy/project/qt_press_image/pressprocess/appdesign_4/build/include && /home/ljy/Qt5.14.2/5.14.2/gcc_64/bin/moc @/home/ljy/project/qt_press_image/pressprocess/appdesign_4/build/include/moc_audioplayer.cpp_parameters
 
-include/moc_databaseworker.cpp: /home/ljy/Doc1/mycode/1010101010/appdesign_4/include/databaseworker.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/ljy/Doc1/mycode/1010101010/appdesign_4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating include/moc_databaseworker.cpp"
-	cd /home/ljy/Doc1/mycode/1010101010/appdesign_4/build/include && /home/ljy/Qt5.14.2/5.14.2/gcc_64/bin/moc @/home/ljy/Doc1/mycode/1010101010/appdesign_4/build/include/moc_databaseworker.cpp_parameters
+include/moc_databaseworker.cpp: /home/ljy/project/qt_press_image/pressprocess/appdesign_4/include/databaseworker.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/ljy/project/qt_press_image/pressprocess/appdesign_4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating include/moc_databaseworker.cpp"
+	cd /home/ljy/project/qt_press_image/pressprocess/appdesign_4/build/include && /home/ljy/Qt5.14.2/5.14.2/gcc_64/bin/moc @/home/ljy/project/qt_press_image/pressprocess/appdesign_4/build/include/moc_databaseworker.cpp_parameters
 
-include/moc_findpeaks.cpp: /home/ljy/Doc1/mycode/1010101010/appdesign_4/include/findpeaks.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/ljy/Doc1/mycode/1010101010/appdesign_4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating include/moc_findpeaks.cpp"
-	cd /home/ljy/Doc1/mycode/1010101010/appdesign_4/build/include && /home/ljy/Qt5.14.2/5.14.2/gcc_64/bin/moc @/home/ljy/Doc1/mycode/1010101010/appdesign_4/build/include/moc_findpeaks.cpp_parameters
+include/moc_findpeaks.cpp: /home/ljy/project/qt_press_image/pressprocess/appdesign_4/include/findpeaks.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/ljy/project/qt_press_image/pressprocess/appdesign_4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating include/moc_findpeaks.cpp"
+	cd /home/ljy/project/qt_press_image/pressprocess/appdesign_4/build/include && /home/ljy/Qt5.14.2/5.14.2/gcc_64/bin/moc @/home/ljy/project/qt_press_image/pressprocess/appdesign_4/build/include/moc_findpeaks.cpp_parameters
 
-include/moc_grid_layout_panel.cpp: /home/ljy/Doc1/mycode/1010101010/appdesign_4/include/grid_layout_panel.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/ljy/Doc1/mycode/1010101010/appdesign_4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Generating include/moc_grid_layout_panel.cpp"
-	cd /home/ljy/Doc1/mycode/1010101010/appdesign_4/build/include && /home/ljy/Qt5.14.2/5.14.2/gcc_64/bin/moc @/home/ljy/Doc1/mycode/1010101010/appdesign_4/build/include/moc_grid_layout_panel.cpp_parameters
+include/moc_grid_layout_panel.cpp: /home/ljy/project/qt_press_image/pressprocess/appdesign_4/include/grid_layout_panel.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/ljy/project/qt_press_image/pressprocess/appdesign_4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Generating include/moc_grid_layout_panel.cpp"
+	cd /home/ljy/project/qt_press_image/pressprocess/appdesign_4/build/include && /home/ljy/Qt5.14.2/5.14.2/gcc_64/bin/moc @/home/ljy/project/qt_press_image/pressprocess/appdesign_4/build/include/moc_grid_layout_panel.cpp_parameters
 
-include/moc_mainwindow.cpp: /home/ljy/Doc1/mycode/1010101010/appdesign_4/include/mainwindow.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/ljy/Doc1/mycode/1010101010/appdesign_4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Generating include/moc_mainwindow.cpp"
-	cd /home/ljy/Doc1/mycode/1010101010/appdesign_4/build/include && /home/ljy/Qt5.14.2/5.14.2/gcc_64/bin/moc @/home/ljy/Doc1/mycode/1010101010/appdesign_4/build/include/moc_mainwindow.cpp_parameters
+include/moc_mainwindow.cpp: /home/ljy/project/qt_press_image/pressprocess/appdesign_4/include/mainwindow.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/ljy/project/qt_press_image/pressprocess/appdesign_4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Generating include/moc_mainwindow.cpp"
+	cd /home/ljy/project/qt_press_image/pressprocess/appdesign_4/build/include && /home/ljy/Qt5.14.2/5.14.2/gcc_64/bin/moc @/home/ljy/project/qt_press_image/pressprocess/appdesign_4/build/include/moc_mainwindow.cpp_parameters
 
-include/moc_mysql_test.cpp: /home/ljy/Doc1/mycode/1010101010/appdesign_4/include/mysql_test.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/ljy/Doc1/mycode/1010101010/appdesign_4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Generating include/moc_mysql_test.cpp"
-	cd /home/ljy/Doc1/mycode/1010101010/appdesign_4/build/include && /home/ljy/Qt5.14.2/5.14.2/gcc_64/bin/moc @/home/ljy/Doc1/mycode/1010101010/appdesign_4/build/include/moc_mysql_test.cpp_parameters
+include/moc_mysql_test.cpp: /home/ljy/project/qt_press_image/pressprocess/appdesign_4/include/mysql_test.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/ljy/project/qt_press_image/pressprocess/appdesign_4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Generating include/moc_mysql_test.cpp"
+	cd /home/ljy/project/qt_press_image/pressprocess/appdesign_4/build/include && /home/ljy/Qt5.14.2/5.14.2/gcc_64/bin/moc @/home/ljy/project/qt_press_image/pressprocess/appdesign_4/build/include/moc_mysql_test.cpp_parameters
 
-include/moc_packet_transmission.cpp: /home/ljy/Doc1/mycode/1010101010/appdesign_4/include/packet_transmission.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/ljy/Doc1/mycode/1010101010/appdesign_4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Generating include/moc_packet_transmission.cpp"
-	cd /home/ljy/Doc1/mycode/1010101010/appdesign_4/build/include && /home/ljy/Qt5.14.2/5.14.2/gcc_64/bin/moc @/home/ljy/Doc1/mycode/1010101010/appdesign_4/build/include/moc_packet_transmission.cpp_parameters
+include/moc_packet_transmission.cpp: /home/ljy/project/qt_press_image/pressprocess/appdesign_4/include/packet_transmission.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/ljy/project/qt_press_image/pressprocess/appdesign_4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Generating include/moc_packet_transmission.cpp"
+	cd /home/ljy/project/qt_press_image/pressprocess/appdesign_4/build/include && /home/ljy/Qt5.14.2/5.14.2/gcc_64/bin/moc @/home/ljy/project/qt_press_image/pressprocess/appdesign_4/build/include/moc_packet_transmission.cpp_parameters
 
-include/moc_picture_process.cpp: /home/ljy/Doc1/mycode/1010101010/appdesign_4/include/picture_process.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/ljy/Doc1/mycode/1010101010/appdesign_4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Generating include/moc_picture_process.cpp"
-	cd /home/ljy/Doc1/mycode/1010101010/appdesign_4/build/include && /home/ljy/Qt5.14.2/5.14.2/gcc_64/bin/moc @/home/ljy/Doc1/mycode/1010101010/appdesign_4/build/include/moc_picture_process.cpp_parameters
+include/moc_picture_process.cpp: /home/ljy/project/qt_press_image/pressprocess/appdesign_4/include/picture_process.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/ljy/project/qt_press_image/pressprocess/appdesign_4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Generating include/moc_picture_process.cpp"
+	cd /home/ljy/project/qt_press_image/pressprocess/appdesign_4/build/include && /home/ljy/Qt5.14.2/5.14.2/gcc_64/bin/moc @/home/ljy/project/qt_press_image/pressprocess/appdesign_4/build/include/moc_picture_process.cpp_parameters
 
-include/moc_pinterwave.cpp: /home/ljy/Doc1/mycode/1010101010/appdesign_4/include/pinterwave.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/ljy/Doc1/mycode/1010101010/appdesign_4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Generating include/moc_pinterwave.cpp"
-	cd /home/ljy/Doc1/mycode/1010101010/appdesign_4/build/include && /home/ljy/Qt5.14.2/5.14.2/gcc_64/bin/moc @/home/ljy/Doc1/mycode/1010101010/appdesign_4/build/include/moc_pinterwave.cpp_parameters
+include/moc_pinterwave.cpp: /home/ljy/project/qt_press_image/pressprocess/appdesign_4/include/pinterwave.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/ljy/project/qt_press_image/pressprocess/appdesign_4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Generating include/moc_pinterwave.cpp"
+	cd /home/ljy/project/qt_press_image/pressprocess/appdesign_4/build/include && /home/ljy/Qt5.14.2/5.14.2/gcc_64/bin/moc @/home/ljy/project/qt_press_image/pressprocess/appdesign_4/build/include/moc_pinterwave.cpp_parameters
 
-include/moc_pinterwave1.cpp: /home/ljy/Doc1/mycode/1010101010/appdesign_4/include/pinterwave1.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/ljy/Doc1/mycode/1010101010/appdesign_4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Generating include/moc_pinterwave1.cpp"
-	cd /home/ljy/Doc1/mycode/1010101010/appdesign_4/build/include && /home/ljy/Qt5.14.2/5.14.2/gcc_64/bin/moc @/home/ljy/Doc1/mycode/1010101010/appdesign_4/build/include/moc_pinterwave1.cpp_parameters
+include/moc_pinterwave1.cpp: /home/ljy/project/qt_press_image/pressprocess/appdesign_4/include/pinterwave1.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/ljy/project/qt_press_image/pressprocess/appdesign_4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Generating include/moc_pinterwave1.cpp"
+	cd /home/ljy/project/qt_press_image/pressprocess/appdesign_4/build/include && /home/ljy/Qt5.14.2/5.14.2/gcc_64/bin/moc @/home/ljy/project/qt_press_image/pressprocess/appdesign_4/build/include/moc_pinterwave1.cpp_parameters
 
-include/moc_presssensor.cpp: /home/ljy/Doc1/mycode/1010101010/appdesign_4/include/presssensor.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/ljy/Doc1/mycode/1010101010/appdesign_4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Generating include/moc_presssensor.cpp"
-	cd /home/ljy/Doc1/mycode/1010101010/appdesign_4/build/include && /home/ljy/Qt5.14.2/5.14.2/gcc_64/bin/moc @/home/ljy/Doc1/mycode/1010101010/appdesign_4/build/include/moc_presssensor.cpp_parameters
+include/moc_presssensor.cpp: /home/ljy/project/qt_press_image/pressprocess/appdesign_4/include/presssensor.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/ljy/project/qt_press_image/pressprocess/appdesign_4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Generating include/moc_presssensor.cpp"
+	cd /home/ljy/project/qt_press_image/pressprocess/appdesign_4/build/include && /home/ljy/Qt5.14.2/5.14.2/gcc_64/bin/moc @/home/ljy/project/qt_press_image/pressprocess/appdesign_4/build/include/moc_presssensor.cpp_parameters
 
-include/moc_worker.cpp: /home/ljy/Doc1/mycode/1010101010/appdesign_4/include/worker.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/ljy/Doc1/mycode/1010101010/appdesign_4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Generating include/moc_worker.cpp"
-	cd /home/ljy/Doc1/mycode/1010101010/appdesign_4/build/include && /home/ljy/Qt5.14.2/5.14.2/gcc_64/bin/moc @/home/ljy/Doc1/mycode/1010101010/appdesign_4/build/include/moc_worker.cpp_parameters
+include/moc_worker.cpp: /home/ljy/project/qt_press_image/pressprocess/appdesign_4/include/worker.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/ljy/project/qt_press_image/pressprocess/appdesign_4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Generating include/moc_worker.cpp"
+	cd /home/ljy/project/qt_press_image/pressprocess/appdesign_4/build/include && /home/ljy/Qt5.14.2/5.14.2/gcc_64/bin/moc @/home/ljy/project/qt_press_image/pressprocess/appdesign_4/build/include/moc_worker.cpp_parameters
 
 CMakeFiles/AppDesign.dir/codegen:
 .PHONY : CMakeFiles/AppDesign.dir/codegen
 
 CMakeFiles/AppDesign.dir/src/audioplayer.cpp.o: CMakeFiles/AppDesign.dir/flags.make
-CMakeFiles/AppDesign.dir/src/audioplayer.cpp.o: /home/ljy/Doc1/mycode/1010101010/appdesign_4/src/audioplayer.cpp
+CMakeFiles/AppDesign.dir/src/audioplayer.cpp.o: /home/ljy/project/qt_press_image/pressprocess/appdesign_4/src/audioplayer.cpp
 CMakeFiles/AppDesign.dir/src/audioplayer.cpp.o: CMakeFiles/AppDesign.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ljy/Doc1/mycode/1010101010/appdesign_4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/AppDesign.dir/src/audioplayer.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/AppDesign.dir/src/audioplayer.cpp.o -MF CMakeFiles/AppDesign.dir/src/audioplayer.cpp.o.d -o CMakeFiles/AppDesign.dir/src/audioplayer.cpp.o -c /home/ljy/Doc1/mycode/1010101010/appdesign_4/src/audioplayer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ljy/project/qt_press_image/pressprocess/appdesign_4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/AppDesign.dir/src/audioplayer.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/AppDesign.dir/src/audioplayer.cpp.o -MF CMakeFiles/AppDesign.dir/src/audioplayer.cpp.o.d -o CMakeFiles/AppDesign.dir/src/audioplayer.cpp.o -c /home/ljy/project/qt_press_image/pressprocess/appdesign_4/src/audioplayer.cpp
 
 CMakeFiles/AppDesign.dir/src/audioplayer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/AppDesign.dir/src/audioplayer.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ljy/Doc1/mycode/1010101010/appdesign_4/src/audioplayer.cpp > CMakeFiles/AppDesign.dir/src/audioplayer.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ljy/project/qt_press_image/pressprocess/appdesign_4/src/audioplayer.cpp > CMakeFiles/AppDesign.dir/src/audioplayer.cpp.i
 
 CMakeFiles/AppDesign.dir/src/audioplayer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/AppDesign.dir/src/audioplayer.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ljy/Doc1/mycode/1010101010/appdesign_4/src/audioplayer.cpp -o CMakeFiles/AppDesign.dir/src/audioplayer.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ljy/project/qt_press_image/pressprocess/appdesign_4/src/audioplayer.cpp -o CMakeFiles/AppDesign.dir/src/audioplayer.cpp.s
 
 CMakeFiles/AppDesign.dir/src/databaseworker.cpp.o: CMakeFiles/AppDesign.dir/flags.make
-CMakeFiles/AppDesign.dir/src/databaseworker.cpp.o: /home/ljy/Doc1/mycode/1010101010/appdesign_4/src/databaseworker.cpp
+CMakeFiles/AppDesign.dir/src/databaseworker.cpp.o: /home/ljy/project/qt_press_image/pressprocess/appdesign_4/src/databaseworker.cpp
 CMakeFiles/AppDesign.dir/src/databaseworker.cpp.o: CMakeFiles/AppDesign.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ljy/Doc1/mycode/1010101010/appdesign_4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/AppDesign.dir/src/databaseworker.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/AppDesign.dir/src/databaseworker.cpp.o -MF CMakeFiles/AppDesign.dir/src/databaseworker.cpp.o.d -o CMakeFiles/AppDesign.dir/src/databaseworker.cpp.o -c /home/ljy/Doc1/mycode/1010101010/appdesign_4/src/databaseworker.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ljy/project/qt_press_image/pressprocess/appdesign_4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/AppDesign.dir/src/databaseworker.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/AppDesign.dir/src/databaseworker.cpp.o -MF CMakeFiles/AppDesign.dir/src/databaseworker.cpp.o.d -o CMakeFiles/AppDesign.dir/src/databaseworker.cpp.o -c /home/ljy/project/qt_press_image/pressprocess/appdesign_4/src/databaseworker.cpp
 
 CMakeFiles/AppDesign.dir/src/databaseworker.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/AppDesign.dir/src/databaseworker.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ljy/Doc1/mycode/1010101010/appdesign_4/src/databaseworker.cpp > CMakeFiles/AppDesign.dir/src/databaseworker.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ljy/project/qt_press_image/pressprocess/appdesign_4/src/databaseworker.cpp > CMakeFiles/AppDesign.dir/src/databaseworker.cpp.i
 
 CMakeFiles/AppDesign.dir/src/databaseworker.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/AppDesign.dir/src/databaseworker.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ljy/Doc1/mycode/1010101010/appdesign_4/src/databaseworker.cpp -o CMakeFiles/AppDesign.dir/src/databaseworker.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ljy/project/qt_press_image/pressprocess/appdesign_4/src/databaseworker.cpp -o CMakeFiles/AppDesign.dir/src/databaseworker.cpp.s
 
 CMakeFiles/AppDesign.dir/src/findpeaks.cpp.o: CMakeFiles/AppDesign.dir/flags.make
-CMakeFiles/AppDesign.dir/src/findpeaks.cpp.o: /home/ljy/Doc1/mycode/1010101010/appdesign_4/src/findpeaks.cpp
+CMakeFiles/AppDesign.dir/src/findpeaks.cpp.o: /home/ljy/project/qt_press_image/pressprocess/appdesign_4/src/findpeaks.cpp
 CMakeFiles/AppDesign.dir/src/findpeaks.cpp.o: CMakeFiles/AppDesign.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ljy/Doc1/mycode/1010101010/appdesign_4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/AppDesign.dir/src/findpeaks.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/AppDesign.dir/src/findpeaks.cpp.o -MF CMakeFiles/AppDesign.dir/src/findpeaks.cpp.o.d -o CMakeFiles/AppDesign.dir/src/findpeaks.cpp.o -c /home/ljy/Doc1/mycode/1010101010/appdesign_4/src/findpeaks.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ljy/project/qt_press_image/pressprocess/appdesign_4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/AppDesign.dir/src/findpeaks.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/AppDesign.dir/src/findpeaks.cpp.o -MF CMakeFiles/AppDesign.dir/src/findpeaks.cpp.o.d -o CMakeFiles/AppDesign.dir/src/findpeaks.cpp.o -c /home/ljy/project/qt_press_image/pressprocess/appdesign_4/src/findpeaks.cpp
 
 CMakeFiles/AppDesign.dir/src/findpeaks.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/AppDesign.dir/src/findpeaks.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ljy/Doc1/mycode/1010101010/appdesign_4/src/findpeaks.cpp > CMakeFiles/AppDesign.dir/src/findpeaks.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ljy/project/qt_press_image/pressprocess/appdesign_4/src/findpeaks.cpp > CMakeFiles/AppDesign.dir/src/findpeaks.cpp.i
 
 CMakeFiles/AppDesign.dir/src/findpeaks.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/AppDesign.dir/src/findpeaks.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ljy/Doc1/mycode/1010101010/appdesign_4/src/findpeaks.cpp -o CMakeFiles/AppDesign.dir/src/findpeaks.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ljy/project/qt_press_image/pressprocess/appdesign_4/src/findpeaks.cpp -o CMakeFiles/AppDesign.dir/src/findpeaks.cpp.s
 
 CMakeFiles/AppDesign.dir/src/grid_layout_panel.cpp.o: CMakeFiles/AppDesign.dir/flags.make
-CMakeFiles/AppDesign.dir/src/grid_layout_panel.cpp.o: /home/ljy/Doc1/mycode/1010101010/appdesign_4/src/grid_layout_panel.cpp
+CMakeFiles/AppDesign.dir/src/grid_layout_panel.cpp.o: /home/ljy/project/qt_press_image/pressprocess/appdesign_4/src/grid_layout_panel.cpp
 CMakeFiles/AppDesign.dir/src/grid_layout_panel.cpp.o: CMakeFiles/AppDesign.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ljy/Doc1/mycode/1010101010/appdesign_4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/AppDesign.dir/src/grid_layout_panel.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/AppDesign.dir/src/grid_layout_panel.cpp.o -MF CMakeFiles/AppDesign.dir/src/grid_layout_panel.cpp.o.d -o CMakeFiles/AppDesign.dir/src/grid_layout_panel.cpp.o -c /home/ljy/Doc1/mycode/1010101010/appdesign_4/src/grid_layout_panel.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ljy/project/qt_press_image/pressprocess/appdesign_4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/AppDesign.dir/src/grid_layout_panel.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/AppDesign.dir/src/grid_layout_panel.cpp.o -MF CMakeFiles/AppDesign.dir/src/grid_layout_panel.cpp.o.d -o CMakeFiles/AppDesign.dir/src/grid_layout_panel.cpp.o -c /home/ljy/project/qt_press_image/pressprocess/appdesign_4/src/grid_layout_panel.cpp
 
 CMakeFiles/AppDesign.dir/src/grid_layout_panel.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/AppDesign.dir/src/grid_layout_panel.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ljy/Doc1/mycode/1010101010/appdesign_4/src/grid_layout_panel.cpp > CMakeFiles/AppDesign.dir/src/grid_layout_panel.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ljy/project/qt_press_image/pressprocess/appdesign_4/src/grid_layout_panel.cpp > CMakeFiles/AppDesign.dir/src/grid_layout_panel.cpp.i
 
 CMakeFiles/AppDesign.dir/src/grid_layout_panel.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/AppDesign.dir/src/grid_layout_panel.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ljy/Doc1/mycode/1010101010/appdesign_4/src/grid_layout_panel.cpp -o CMakeFiles/AppDesign.dir/src/grid_layout_panel.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ljy/project/qt_press_image/pressprocess/appdesign_4/src/grid_layout_panel.cpp -o CMakeFiles/AppDesign.dir/src/grid_layout_panel.cpp.s
 
 CMakeFiles/AppDesign.dir/src/main.cpp.o: CMakeFiles/AppDesign.dir/flags.make
-CMakeFiles/AppDesign.dir/src/main.cpp.o: /home/ljy/Doc1/mycode/1010101010/appdesign_4/src/main.cpp
+CMakeFiles/AppDesign.dir/src/main.cpp.o: /home/ljy/project/qt_press_image/pressprocess/appdesign_4/src/main.cpp
 CMakeFiles/AppDesign.dir/src/main.cpp.o: CMakeFiles/AppDesign.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ljy/Doc1/mycode/1010101010/appdesign_4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/AppDesign.dir/src/main.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/AppDesign.dir/src/main.cpp.o -MF CMakeFiles/AppDesign.dir/src/main.cpp.o.d -o CMakeFiles/AppDesign.dir/src/main.cpp.o -c /home/ljy/Doc1/mycode/1010101010/appdesign_4/src/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ljy/project/qt_press_image/pressprocess/appdesign_4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/AppDesign.dir/src/main.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/AppDesign.dir/src/main.cpp.o -MF CMakeFiles/AppDesign.dir/src/main.cpp.o.d -o CMakeFiles/AppDesign.dir/src/main.cpp.o -c /home/ljy/project/qt_press_image/pressprocess/appdesign_4/src/main.cpp
 
 CMakeFiles/AppDesign.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/AppDesign.dir/src/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ljy/Doc1/mycode/1010101010/appdesign_4/src/main.cpp > CMakeFiles/AppDesign.dir/src/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ljy/project/qt_press_image/pressprocess/appdesign_4/src/main.cpp > CMakeFiles/AppDesign.dir/src/main.cpp.i
 
 CMakeFiles/AppDesign.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/AppDesign.dir/src/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ljy/Doc1/mycode/1010101010/appdesign_4/src/main.cpp -o CMakeFiles/AppDesign.dir/src/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ljy/project/qt_press_image/pressprocess/appdesign_4/src/main.cpp -o CMakeFiles/AppDesign.dir/src/main.cpp.s
 
 CMakeFiles/AppDesign.dir/src/mainwindow.cpp.o: CMakeFiles/AppDesign.dir/flags.make
-CMakeFiles/AppDesign.dir/src/mainwindow.cpp.o: /home/ljy/Doc1/mycode/1010101010/appdesign_4/src/mainwindow.cpp
+CMakeFiles/AppDesign.dir/src/mainwindow.cpp.o: /home/ljy/project/qt_press_image/pressprocess/appdesign_4/src/mainwindow.cpp
 CMakeFiles/AppDesign.dir/src/mainwindow.cpp.o: CMakeFiles/AppDesign.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ljy/Doc1/mycode/1010101010/appdesign_4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/AppDesign.dir/src/mainwindow.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/AppDesign.dir/src/mainwindow.cpp.o -MF CMakeFiles/AppDesign.dir/src/mainwindow.cpp.o.d -o CMakeFiles/AppDesign.dir/src/mainwindow.cpp.o -c /home/ljy/Doc1/mycode/1010101010/appdesign_4/src/mainwindow.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ljy/project/qt_press_image/pressprocess/appdesign_4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/AppDesign.dir/src/mainwindow.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/AppDesign.dir/src/mainwindow.cpp.o -MF CMakeFiles/AppDesign.dir/src/mainwindow.cpp.o.d -o CMakeFiles/AppDesign.dir/src/mainwindow.cpp.o -c /home/ljy/project/qt_press_image/pressprocess/appdesign_4/src/mainwindow.cpp
 
 CMakeFiles/AppDesign.dir/src/mainwindow.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/AppDesign.dir/src/mainwindow.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ljy/Doc1/mycode/1010101010/appdesign_4/src/mainwindow.cpp > CMakeFiles/AppDesign.dir/src/mainwindow.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ljy/project/qt_press_image/pressprocess/appdesign_4/src/mainwindow.cpp > CMakeFiles/AppDesign.dir/src/mainwindow.cpp.i
 
 CMakeFiles/AppDesign.dir/src/mainwindow.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/AppDesign.dir/src/mainwindow.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ljy/Doc1/mycode/1010101010/appdesign_4/src/mainwindow.cpp -o CMakeFiles/AppDesign.dir/src/mainwindow.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ljy/project/qt_press_image/pressprocess/appdesign_4/src/mainwindow.cpp -o CMakeFiles/AppDesign.dir/src/mainwindow.cpp.s
 
 CMakeFiles/AppDesign.dir/src/mysql_test.cpp.o: CMakeFiles/AppDesign.dir/flags.make
-CMakeFiles/AppDesign.dir/src/mysql_test.cpp.o: /home/ljy/Doc1/mycode/1010101010/appdesign_4/src/mysql_test.cpp
+CMakeFiles/AppDesign.dir/src/mysql_test.cpp.o: /home/ljy/project/qt_press_image/pressprocess/appdesign_4/src/mysql_test.cpp
 CMakeFiles/AppDesign.dir/src/mysql_test.cpp.o: CMakeFiles/AppDesign.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ljy/Doc1/mycode/1010101010/appdesign_4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/AppDesign.dir/src/mysql_test.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/AppDesign.dir/src/mysql_test.cpp.o -MF CMakeFiles/AppDesign.dir/src/mysql_test.cpp.o.d -o CMakeFiles/AppDesign.dir/src/mysql_test.cpp.o -c /home/ljy/Doc1/mycode/1010101010/appdesign_4/src/mysql_test.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ljy/project/qt_press_image/pressprocess/appdesign_4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/AppDesign.dir/src/mysql_test.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/AppDesign.dir/src/mysql_test.cpp.o -MF CMakeFiles/AppDesign.dir/src/mysql_test.cpp.o.d -o CMakeFiles/AppDesign.dir/src/mysql_test.cpp.o -c /home/ljy/project/qt_press_image/pressprocess/appdesign_4/src/mysql_test.cpp
 
 CMakeFiles/AppDesign.dir/src/mysql_test.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/AppDesign.dir/src/mysql_test.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ljy/Doc1/mycode/1010101010/appdesign_4/src/mysql_test.cpp > CMakeFiles/AppDesign.dir/src/mysql_test.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ljy/project/qt_press_image/pressprocess/appdesign_4/src/mysql_test.cpp > CMakeFiles/AppDesign.dir/src/mysql_test.cpp.i
 
 CMakeFiles/AppDesign.dir/src/mysql_test.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/AppDesign.dir/src/mysql_test.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ljy/Doc1/mycode/1010101010/appdesign_4/src/mysql_test.cpp -o CMakeFiles/AppDesign.dir/src/mysql_test.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ljy/project/qt_press_image/pressprocess/appdesign_4/src/mysql_test.cpp -o CMakeFiles/AppDesign.dir/src/mysql_test.cpp.s
 
 CMakeFiles/AppDesign.dir/src/packet_transmission.cpp.o: CMakeFiles/AppDesign.dir/flags.make
-CMakeFiles/AppDesign.dir/src/packet_transmission.cpp.o: /home/ljy/Doc1/mycode/1010101010/appdesign_4/src/packet_transmission.cpp
+CMakeFiles/AppDesign.dir/src/packet_transmission.cpp.o: /home/ljy/project/qt_press_image/pressprocess/appdesign_4/src/packet_transmission.cpp
 CMakeFiles/AppDesign.dir/src/packet_transmission.cpp.o: CMakeFiles/AppDesign.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ljy/Doc1/mycode/1010101010/appdesign_4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/AppDesign.dir/src/packet_transmission.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/AppDesign.dir/src/packet_transmission.cpp.o -MF CMakeFiles/AppDesign.dir/src/packet_transmission.cpp.o.d -o CMakeFiles/AppDesign.dir/src/packet_transmission.cpp.o -c /home/ljy/Doc1/mycode/1010101010/appdesign_4/src/packet_transmission.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ljy/project/qt_press_image/pressprocess/appdesign_4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/AppDesign.dir/src/packet_transmission.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/AppDesign.dir/src/packet_transmission.cpp.o -MF CMakeFiles/AppDesign.dir/src/packet_transmission.cpp.o.d -o CMakeFiles/AppDesign.dir/src/packet_transmission.cpp.o -c /home/ljy/project/qt_press_image/pressprocess/appdesign_4/src/packet_transmission.cpp
 
 CMakeFiles/AppDesign.dir/src/packet_transmission.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/AppDesign.dir/src/packet_transmission.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ljy/Doc1/mycode/1010101010/appdesign_4/src/packet_transmission.cpp > CMakeFiles/AppDesign.dir/src/packet_transmission.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ljy/project/qt_press_image/pressprocess/appdesign_4/src/packet_transmission.cpp > CMakeFiles/AppDesign.dir/src/packet_transmission.cpp.i
 
 CMakeFiles/AppDesign.dir/src/packet_transmission.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/AppDesign.dir/src/packet_transmission.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ljy/Doc1/mycode/1010101010/appdesign_4/src/packet_transmission.cpp -o CMakeFiles/AppDesign.dir/src/packet_transmission.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ljy/project/qt_press_image/pressprocess/appdesign_4/src/packet_transmission.cpp -o CMakeFiles/AppDesign.dir/src/packet_transmission.cpp.s
 
 CMakeFiles/AppDesign.dir/src/picture_process.cpp.o: CMakeFiles/AppDesign.dir/flags.make
-CMakeFiles/AppDesign.dir/src/picture_process.cpp.o: /home/ljy/Doc1/mycode/1010101010/appdesign_4/src/picture_process.cpp
+CMakeFiles/AppDesign.dir/src/picture_process.cpp.o: /home/ljy/project/qt_press_image/pressprocess/appdesign_4/src/picture_process.cpp
 CMakeFiles/AppDesign.dir/src/picture_process.cpp.o: CMakeFiles/AppDesign.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ljy/Doc1/mycode/1010101010/appdesign_4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/AppDesign.dir/src/picture_process.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/AppDesign.dir/src/picture_process.cpp.o -MF CMakeFiles/AppDesign.dir/src/picture_process.cpp.o.d -o CMakeFiles/AppDesign.dir/src/picture_process.cpp.o -c /home/ljy/Doc1/mycode/1010101010/appdesign_4/src/picture_process.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ljy/project/qt_press_image/pressprocess/appdesign_4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/AppDesign.dir/src/picture_process.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/AppDesign.dir/src/picture_process.cpp.o -MF CMakeFiles/AppDesign.dir/src/picture_process.cpp.o.d -o CMakeFiles/AppDesign.dir/src/picture_process.cpp.o -c /home/ljy/project/qt_press_image/pressprocess/appdesign_4/src/picture_process.cpp
 
 CMakeFiles/AppDesign.dir/src/picture_process.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/AppDesign.dir/src/picture_process.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ljy/Doc1/mycode/1010101010/appdesign_4/src/picture_process.cpp > CMakeFiles/AppDesign.dir/src/picture_process.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ljy/project/qt_press_image/pressprocess/appdesign_4/src/picture_process.cpp > CMakeFiles/AppDesign.dir/src/picture_process.cpp.i
 
 CMakeFiles/AppDesign.dir/src/picture_process.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/AppDesign.dir/src/picture_process.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ljy/Doc1/mycode/1010101010/appdesign_4/src/picture_process.cpp -o CMakeFiles/AppDesign.dir/src/picture_process.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ljy/project/qt_press_image/pressprocess/appdesign_4/src/picture_process.cpp -o CMakeFiles/AppDesign.dir/src/picture_process.cpp.s
 
 CMakeFiles/AppDesign.dir/src/pinterwave.cpp.o: CMakeFiles/AppDesign.dir/flags.make
-CMakeFiles/AppDesign.dir/src/pinterwave.cpp.o: /home/ljy/Doc1/mycode/1010101010/appdesign_4/src/pinterwave.cpp
+CMakeFiles/AppDesign.dir/src/pinterwave.cpp.o: /home/ljy/project/qt_press_image/pressprocess/appdesign_4/src/pinterwave.cpp
 CMakeFiles/AppDesign.dir/src/pinterwave.cpp.o: CMakeFiles/AppDesign.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ljy/Doc1/mycode/1010101010/appdesign_4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/AppDesign.dir/src/pinterwave.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/AppDesign.dir/src/pinterwave.cpp.o -MF CMakeFiles/AppDesign.dir/src/pinterwave.cpp.o.d -o CMakeFiles/AppDesign.dir/src/pinterwave.cpp.o -c /home/ljy/Doc1/mycode/1010101010/appdesign_4/src/pinterwave.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ljy/project/qt_press_image/pressprocess/appdesign_4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/AppDesign.dir/src/pinterwave.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/AppDesign.dir/src/pinterwave.cpp.o -MF CMakeFiles/AppDesign.dir/src/pinterwave.cpp.o.d -o CMakeFiles/AppDesign.dir/src/pinterwave.cpp.o -c /home/ljy/project/qt_press_image/pressprocess/appdesign_4/src/pinterwave.cpp
 
 CMakeFiles/AppDesign.dir/src/pinterwave.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/AppDesign.dir/src/pinterwave.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ljy/Doc1/mycode/1010101010/appdesign_4/src/pinterwave.cpp > CMakeFiles/AppDesign.dir/src/pinterwave.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ljy/project/qt_press_image/pressprocess/appdesign_4/src/pinterwave.cpp > CMakeFiles/AppDesign.dir/src/pinterwave.cpp.i
 
 CMakeFiles/AppDesign.dir/src/pinterwave.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/AppDesign.dir/src/pinterwave.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ljy/Doc1/mycode/1010101010/appdesign_4/src/pinterwave.cpp -o CMakeFiles/AppDesign.dir/src/pinterwave.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ljy/project/qt_press_image/pressprocess/appdesign_4/src/pinterwave.cpp -o CMakeFiles/AppDesign.dir/src/pinterwave.cpp.s
 
 CMakeFiles/AppDesign.dir/src/pinterwave1.cpp.o: CMakeFiles/AppDesign.dir/flags.make
-CMakeFiles/AppDesign.dir/src/pinterwave1.cpp.o: /home/ljy/Doc1/mycode/1010101010/appdesign_4/src/pinterwave1.cpp
+CMakeFiles/AppDesign.dir/src/pinterwave1.cpp.o: /home/ljy/project/qt_press_image/pressprocess/appdesign_4/src/pinterwave1.cpp
 CMakeFiles/AppDesign.dir/src/pinterwave1.cpp.o: CMakeFiles/AppDesign.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ljy/Doc1/mycode/1010101010/appdesign_4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/AppDesign.dir/src/pinterwave1.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/AppDesign.dir/src/pinterwave1.cpp.o -MF CMakeFiles/AppDesign.dir/src/pinterwave1.cpp.o.d -o CMakeFiles/AppDesign.dir/src/pinterwave1.cpp.o -c /home/ljy/Doc1/mycode/1010101010/appdesign_4/src/pinterwave1.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ljy/project/qt_press_image/pressprocess/appdesign_4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/AppDesign.dir/src/pinterwave1.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/AppDesign.dir/src/pinterwave1.cpp.o -MF CMakeFiles/AppDesign.dir/src/pinterwave1.cpp.o.d -o CMakeFiles/AppDesign.dir/src/pinterwave1.cpp.o -c /home/ljy/project/qt_press_image/pressprocess/appdesign_4/src/pinterwave1.cpp
 
 CMakeFiles/AppDesign.dir/src/pinterwave1.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/AppDesign.dir/src/pinterwave1.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ljy/Doc1/mycode/1010101010/appdesign_4/src/pinterwave1.cpp > CMakeFiles/AppDesign.dir/src/pinterwave1.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ljy/project/qt_press_image/pressprocess/appdesign_4/src/pinterwave1.cpp > CMakeFiles/AppDesign.dir/src/pinterwave1.cpp.i
 
 CMakeFiles/AppDesign.dir/src/pinterwave1.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/AppDesign.dir/src/pinterwave1.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ljy/Doc1/mycode/1010101010/appdesign_4/src/pinterwave1.cpp -o CMakeFiles/AppDesign.dir/src/pinterwave1.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ljy/project/qt_press_image/pressprocess/appdesign_4/src/pinterwave1.cpp -o CMakeFiles/AppDesign.dir/src/pinterwave1.cpp.s
 
 CMakeFiles/AppDesign.dir/src/presssensor.cpp.o: CMakeFiles/AppDesign.dir/flags.make
-CMakeFiles/AppDesign.dir/src/presssensor.cpp.o: /home/ljy/Doc1/mycode/1010101010/appdesign_4/src/presssensor.cpp
+CMakeFiles/AppDesign.dir/src/presssensor.cpp.o: /home/ljy/project/qt_press_image/pressprocess/appdesign_4/src/presssensor.cpp
 CMakeFiles/AppDesign.dir/src/presssensor.cpp.o: CMakeFiles/AppDesign.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ljy/Doc1/mycode/1010101010/appdesign_4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object CMakeFiles/AppDesign.dir/src/presssensor.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/AppDesign.dir/src/presssensor.cpp.o -MF CMakeFiles/AppDesign.dir/src/presssensor.cpp.o.d -o CMakeFiles/AppDesign.dir/src/presssensor.cpp.o -c /home/ljy/Doc1/mycode/1010101010/appdesign_4/src/presssensor.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ljy/project/qt_press_image/pressprocess/appdesign_4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object CMakeFiles/AppDesign.dir/src/presssensor.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/AppDesign.dir/src/presssensor.cpp.o -MF CMakeFiles/AppDesign.dir/src/presssensor.cpp.o.d -o CMakeFiles/AppDesign.dir/src/presssensor.cpp.o -c /home/ljy/project/qt_press_image/pressprocess/appdesign_4/src/presssensor.cpp
 
 CMakeFiles/AppDesign.dir/src/presssensor.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/AppDesign.dir/src/presssensor.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ljy/Doc1/mycode/1010101010/appdesign_4/src/presssensor.cpp > CMakeFiles/AppDesign.dir/src/presssensor.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ljy/project/qt_press_image/pressprocess/appdesign_4/src/presssensor.cpp > CMakeFiles/AppDesign.dir/src/presssensor.cpp.i
 
 CMakeFiles/AppDesign.dir/src/presssensor.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/AppDesign.dir/src/presssensor.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ljy/Doc1/mycode/1010101010/appdesign_4/src/presssensor.cpp -o CMakeFiles/AppDesign.dir/src/presssensor.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ljy/project/qt_press_image/pressprocess/appdesign_4/src/presssensor.cpp -o CMakeFiles/AppDesign.dir/src/presssensor.cpp.s
 
 CMakeFiles/AppDesign.dir/src/worker.cpp.o: CMakeFiles/AppDesign.dir/flags.make
-CMakeFiles/AppDesign.dir/src/worker.cpp.o: /home/ljy/Doc1/mycode/1010101010/appdesign_4/src/worker.cpp
+CMakeFiles/AppDesign.dir/src/worker.cpp.o: /home/ljy/project/qt_press_image/pressprocess/appdesign_4/src/worker.cpp
 CMakeFiles/AppDesign.dir/src/worker.cpp.o: CMakeFiles/AppDesign.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ljy/Doc1/mycode/1010101010/appdesign_4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object CMakeFiles/AppDesign.dir/src/worker.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/AppDesign.dir/src/worker.cpp.o -MF CMakeFiles/AppDesign.dir/src/worker.cpp.o.d -o CMakeFiles/AppDesign.dir/src/worker.cpp.o -c /home/ljy/Doc1/mycode/1010101010/appdesign_4/src/worker.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ljy/project/qt_press_image/pressprocess/appdesign_4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object CMakeFiles/AppDesign.dir/src/worker.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/AppDesign.dir/src/worker.cpp.o -MF CMakeFiles/AppDesign.dir/src/worker.cpp.o.d -o CMakeFiles/AppDesign.dir/src/worker.cpp.o -c /home/ljy/project/qt_press_image/pressprocess/appdesign_4/src/worker.cpp
 
 CMakeFiles/AppDesign.dir/src/worker.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/AppDesign.dir/src/worker.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ljy/Doc1/mycode/1010101010/appdesign_4/src/worker.cpp > CMakeFiles/AppDesign.dir/src/worker.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ljy/project/qt_press_image/pressprocess/appdesign_4/src/worker.cpp > CMakeFiles/AppDesign.dir/src/worker.cpp.i
 
 CMakeFiles/AppDesign.dir/src/worker.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/AppDesign.dir/src/worker.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ljy/Doc1/mycode/1010101010/appdesign_4/src/worker.cpp -o CMakeFiles/AppDesign.dir/src/worker.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ljy/project/qt_press_image/pressprocess/appdesign_4/src/worker.cpp -o CMakeFiles/AppDesign.dir/src/worker.cpp.s
 
 CMakeFiles/AppDesign.dir/include/moc_audioplayer.cpp.o: CMakeFiles/AppDesign.dir/flags.make
 CMakeFiles/AppDesign.dir/include/moc_audioplayer.cpp.o: include/moc_audioplayer.cpp
 CMakeFiles/AppDesign.dir/include/moc_audioplayer.cpp.o: CMakeFiles/AppDesign.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ljy/Doc1/mycode/1010101010/appdesign_4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object CMakeFiles/AppDesign.dir/include/moc_audioplayer.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/AppDesign.dir/include/moc_audioplayer.cpp.o -MF CMakeFiles/AppDesign.dir/include/moc_audioplayer.cpp.o.d -o CMakeFiles/AppDesign.dir/include/moc_audioplayer.cpp.o -c /home/ljy/Doc1/mycode/1010101010/appdesign_4/build/include/moc_audioplayer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ljy/project/qt_press_image/pressprocess/appdesign_4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object CMakeFiles/AppDesign.dir/include/moc_audioplayer.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/AppDesign.dir/include/moc_audioplayer.cpp.o -MF CMakeFiles/AppDesign.dir/include/moc_audioplayer.cpp.o.d -o CMakeFiles/AppDesign.dir/include/moc_audioplayer.cpp.o -c /home/ljy/project/qt_press_image/pressprocess/appdesign_4/build/include/moc_audioplayer.cpp
 
 CMakeFiles/AppDesign.dir/include/moc_audioplayer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/AppDesign.dir/include/moc_audioplayer.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ljy/Doc1/mycode/1010101010/appdesign_4/build/include/moc_audioplayer.cpp > CMakeFiles/AppDesign.dir/include/moc_audioplayer.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ljy/project/qt_press_image/pressprocess/appdesign_4/build/include/moc_audioplayer.cpp > CMakeFiles/AppDesign.dir/include/moc_audioplayer.cpp.i
 
 CMakeFiles/AppDesign.dir/include/moc_audioplayer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/AppDesign.dir/include/moc_audioplayer.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ljy/Doc1/mycode/1010101010/appdesign_4/build/include/moc_audioplayer.cpp -o CMakeFiles/AppDesign.dir/include/moc_audioplayer.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ljy/project/qt_press_image/pressprocess/appdesign_4/build/include/moc_audioplayer.cpp -o CMakeFiles/AppDesign.dir/include/moc_audioplayer.cpp.s
 
 CMakeFiles/AppDesign.dir/include/moc_databaseworker.cpp.o: CMakeFiles/AppDesign.dir/flags.make
 CMakeFiles/AppDesign.dir/include/moc_databaseworker.cpp.o: include/moc_databaseworker.cpp
 CMakeFiles/AppDesign.dir/include/moc_databaseworker.cpp.o: CMakeFiles/AppDesign.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ljy/Doc1/mycode/1010101010/appdesign_4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object CMakeFiles/AppDesign.dir/include/moc_databaseworker.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/AppDesign.dir/include/moc_databaseworker.cpp.o -MF CMakeFiles/AppDesign.dir/include/moc_databaseworker.cpp.o.d -o CMakeFiles/AppDesign.dir/include/moc_databaseworker.cpp.o -c /home/ljy/Doc1/mycode/1010101010/appdesign_4/build/include/moc_databaseworker.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ljy/project/qt_press_image/pressprocess/appdesign_4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object CMakeFiles/AppDesign.dir/include/moc_databaseworker.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/AppDesign.dir/include/moc_databaseworker.cpp.o -MF CMakeFiles/AppDesign.dir/include/moc_databaseworker.cpp.o.d -o CMakeFiles/AppDesign.dir/include/moc_databaseworker.cpp.o -c /home/ljy/project/qt_press_image/pressprocess/appdesign_4/build/include/moc_databaseworker.cpp
 
 CMakeFiles/AppDesign.dir/include/moc_databaseworker.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/AppDesign.dir/include/moc_databaseworker.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ljy/Doc1/mycode/1010101010/appdesign_4/build/include/moc_databaseworker.cpp > CMakeFiles/AppDesign.dir/include/moc_databaseworker.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ljy/project/qt_press_image/pressprocess/appdesign_4/build/include/moc_databaseworker.cpp > CMakeFiles/AppDesign.dir/include/moc_databaseworker.cpp.i
 
 CMakeFiles/AppDesign.dir/include/moc_databaseworker.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/AppDesign.dir/include/moc_databaseworker.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ljy/Doc1/mycode/1010101010/appdesign_4/build/include/moc_databaseworker.cpp -o CMakeFiles/AppDesign.dir/include/moc_databaseworker.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ljy/project/qt_press_image/pressprocess/appdesign_4/build/include/moc_databaseworker.cpp -o CMakeFiles/AppDesign.dir/include/moc_databaseworker.cpp.s
 
 CMakeFiles/AppDesign.dir/include/moc_findpeaks.cpp.o: CMakeFiles/AppDesign.dir/flags.make
 CMakeFiles/AppDesign.dir/include/moc_findpeaks.cpp.o: include/moc_findpeaks.cpp
 CMakeFiles/AppDesign.dir/include/moc_findpeaks.cpp.o: CMakeFiles/AppDesign.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ljy/Doc1/mycode/1010101010/appdesign_4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object CMakeFiles/AppDesign.dir/include/moc_findpeaks.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/AppDesign.dir/include/moc_findpeaks.cpp.o -MF CMakeFiles/AppDesign.dir/include/moc_findpeaks.cpp.o.d -o CMakeFiles/AppDesign.dir/include/moc_findpeaks.cpp.o -c /home/ljy/Doc1/mycode/1010101010/appdesign_4/build/include/moc_findpeaks.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ljy/project/qt_press_image/pressprocess/appdesign_4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object CMakeFiles/AppDesign.dir/include/moc_findpeaks.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/AppDesign.dir/include/moc_findpeaks.cpp.o -MF CMakeFiles/AppDesign.dir/include/moc_findpeaks.cpp.o.d -o CMakeFiles/AppDesign.dir/include/moc_findpeaks.cpp.o -c /home/ljy/project/qt_press_image/pressprocess/appdesign_4/build/include/moc_findpeaks.cpp
 
 CMakeFiles/AppDesign.dir/include/moc_findpeaks.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/AppDesign.dir/include/moc_findpeaks.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ljy/Doc1/mycode/1010101010/appdesign_4/build/include/moc_findpeaks.cpp > CMakeFiles/AppDesign.dir/include/moc_findpeaks.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ljy/project/qt_press_image/pressprocess/appdesign_4/build/include/moc_findpeaks.cpp > CMakeFiles/AppDesign.dir/include/moc_findpeaks.cpp.i
 
 CMakeFiles/AppDesign.dir/include/moc_findpeaks.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/AppDesign.dir/include/moc_findpeaks.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ljy/Doc1/mycode/1010101010/appdesign_4/build/include/moc_findpeaks.cpp -o CMakeFiles/AppDesign.dir/include/moc_findpeaks.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ljy/project/qt_press_image/pressprocess/appdesign_4/build/include/moc_findpeaks.cpp -o CMakeFiles/AppDesign.dir/include/moc_findpeaks.cpp.s
 
 CMakeFiles/AppDesign.dir/include/moc_grid_layout_panel.cpp.o: CMakeFiles/AppDesign.dir/flags.make
 CMakeFiles/AppDesign.dir/include/moc_grid_layout_panel.cpp.o: include/moc_grid_layout_panel.cpp
 CMakeFiles/AppDesign.dir/include/moc_grid_layout_panel.cpp.o: CMakeFiles/AppDesign.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ljy/Doc1/mycode/1010101010/appdesign_4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object CMakeFiles/AppDesign.dir/include/moc_grid_layout_panel.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/AppDesign.dir/include/moc_grid_layout_panel.cpp.o -MF CMakeFiles/AppDesign.dir/include/moc_grid_layout_panel.cpp.o.d -o CMakeFiles/AppDesign.dir/include/moc_grid_layout_panel.cpp.o -c /home/ljy/Doc1/mycode/1010101010/appdesign_4/build/include/moc_grid_layout_panel.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ljy/project/qt_press_image/pressprocess/appdesign_4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object CMakeFiles/AppDesign.dir/include/moc_grid_layout_panel.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/AppDesign.dir/include/moc_grid_layout_panel.cpp.o -MF CMakeFiles/AppDesign.dir/include/moc_grid_layout_panel.cpp.o.d -o CMakeFiles/AppDesign.dir/include/moc_grid_layout_panel.cpp.o -c /home/ljy/project/qt_press_image/pressprocess/appdesign_4/build/include/moc_grid_layout_panel.cpp
 
 CMakeFiles/AppDesign.dir/include/moc_grid_layout_panel.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/AppDesign.dir/include/moc_grid_layout_panel.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ljy/Doc1/mycode/1010101010/appdesign_4/build/include/moc_grid_layout_panel.cpp > CMakeFiles/AppDesign.dir/include/moc_grid_layout_panel.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ljy/project/qt_press_image/pressprocess/appdesign_4/build/include/moc_grid_layout_panel.cpp > CMakeFiles/AppDesign.dir/include/moc_grid_layout_panel.cpp.i
 
 CMakeFiles/AppDesign.dir/include/moc_grid_layout_panel.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/AppDesign.dir/include/moc_grid_layout_panel.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ljy/Doc1/mycode/1010101010/appdesign_4/build/include/moc_grid_layout_panel.cpp -o CMakeFiles/AppDesign.dir/include/moc_grid_layout_panel.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ljy/project/qt_press_image/pressprocess/appdesign_4/build/include/moc_grid_layout_panel.cpp -o CMakeFiles/AppDesign.dir/include/moc_grid_layout_panel.cpp.s
 
 CMakeFiles/AppDesign.dir/include/moc_mainwindow.cpp.o: CMakeFiles/AppDesign.dir/flags.make
 CMakeFiles/AppDesign.dir/include/moc_mainwindow.cpp.o: include/moc_mainwindow.cpp
 CMakeFiles/AppDesign.dir/include/moc_mainwindow.cpp.o: CMakeFiles/AppDesign.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ljy/Doc1/mycode/1010101010/appdesign_4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object CMakeFiles/AppDesign.dir/include/moc_mainwindow.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/AppDesign.dir/include/moc_mainwindow.cpp.o -MF CMakeFiles/AppDesign.dir/include/moc_mainwindow.cpp.o.d -o CMakeFiles/AppDesign.dir/include/moc_mainwindow.cpp.o -c /home/ljy/Doc1/mycode/1010101010/appdesign_4/build/include/moc_mainwindow.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ljy/project/qt_press_image/pressprocess/appdesign_4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object CMakeFiles/AppDesign.dir/include/moc_mainwindow.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/AppDesign.dir/include/moc_mainwindow.cpp.o -MF CMakeFiles/AppDesign.dir/include/moc_mainwindow.cpp.o.d -o CMakeFiles/AppDesign.dir/include/moc_mainwindow.cpp.o -c /home/ljy/project/qt_press_image/pressprocess/appdesign_4/build/include/moc_mainwindow.cpp
 
 CMakeFiles/AppDesign.dir/include/moc_mainwindow.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/AppDesign.dir/include/moc_mainwindow.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ljy/Doc1/mycode/1010101010/appdesign_4/build/include/moc_mainwindow.cpp > CMakeFiles/AppDesign.dir/include/moc_mainwindow.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ljy/project/qt_press_image/pressprocess/appdesign_4/build/include/moc_mainwindow.cpp > CMakeFiles/AppDesign.dir/include/moc_mainwindow.cpp.i
 
 CMakeFiles/AppDesign.dir/include/moc_mainwindow.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/AppDesign.dir/include/moc_mainwindow.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ljy/Doc1/mycode/1010101010/appdesign_4/build/include/moc_mainwindow.cpp -o CMakeFiles/AppDesign.dir/include/moc_mainwindow.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ljy/project/qt_press_image/pressprocess/appdesign_4/build/include/moc_mainwindow.cpp -o CMakeFiles/AppDesign.dir/include/moc_mainwindow.cpp.s
 
 CMakeFiles/AppDesign.dir/include/moc_mysql_test.cpp.o: CMakeFiles/AppDesign.dir/flags.make
 CMakeFiles/AppDesign.dir/include/moc_mysql_test.cpp.o: include/moc_mysql_test.cpp
 CMakeFiles/AppDesign.dir/include/moc_mysql_test.cpp.o: CMakeFiles/AppDesign.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ljy/Doc1/mycode/1010101010/appdesign_4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building CXX object CMakeFiles/AppDesign.dir/include/moc_mysql_test.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/AppDesign.dir/include/moc_mysql_test.cpp.o -MF CMakeFiles/AppDesign.dir/include/moc_mysql_test.cpp.o.d -o CMakeFiles/AppDesign.dir/include/moc_mysql_test.cpp.o -c /home/ljy/Doc1/mycode/1010101010/appdesign_4/build/include/moc_mysql_test.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ljy/project/qt_press_image/pressprocess/appdesign_4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building CXX object CMakeFiles/AppDesign.dir/include/moc_mysql_test.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/AppDesign.dir/include/moc_mysql_test.cpp.o -MF CMakeFiles/AppDesign.dir/include/moc_mysql_test.cpp.o.d -o CMakeFiles/AppDesign.dir/include/moc_mysql_test.cpp.o -c /home/ljy/project/qt_press_image/pressprocess/appdesign_4/build/include/moc_mysql_test.cpp
 
 CMakeFiles/AppDesign.dir/include/moc_mysql_test.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/AppDesign.dir/include/moc_mysql_test.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ljy/Doc1/mycode/1010101010/appdesign_4/build/include/moc_mysql_test.cpp > CMakeFiles/AppDesign.dir/include/moc_mysql_test.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ljy/project/qt_press_image/pressprocess/appdesign_4/build/include/moc_mysql_test.cpp > CMakeFiles/AppDesign.dir/include/moc_mysql_test.cpp.i
 
 CMakeFiles/AppDesign.dir/include/moc_mysql_test.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/AppDesign.dir/include/moc_mysql_test.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ljy/Doc1/mycode/1010101010/appdesign_4/build/include/moc_mysql_test.cpp -o CMakeFiles/AppDesign.dir/include/moc_mysql_test.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ljy/project/qt_press_image/pressprocess/appdesign_4/build/include/moc_mysql_test.cpp -o CMakeFiles/AppDesign.dir/include/moc_mysql_test.cpp.s
 
 CMakeFiles/AppDesign.dir/include/moc_packet_transmission.cpp.o: CMakeFiles/AppDesign.dir/flags.make
 CMakeFiles/AppDesign.dir/include/moc_packet_transmission.cpp.o: include/moc_packet_transmission.cpp
 CMakeFiles/AppDesign.dir/include/moc_packet_transmission.cpp.o: CMakeFiles/AppDesign.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ljy/Doc1/mycode/1010101010/appdesign_4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building CXX object CMakeFiles/AppDesign.dir/include/moc_packet_transmission.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/AppDesign.dir/include/moc_packet_transmission.cpp.o -MF CMakeFiles/AppDesign.dir/include/moc_packet_transmission.cpp.o.d -o CMakeFiles/AppDesign.dir/include/moc_packet_transmission.cpp.o -c /home/ljy/Doc1/mycode/1010101010/appdesign_4/build/include/moc_packet_transmission.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ljy/project/qt_press_image/pressprocess/appdesign_4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building CXX object CMakeFiles/AppDesign.dir/include/moc_packet_transmission.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/AppDesign.dir/include/moc_packet_transmission.cpp.o -MF CMakeFiles/AppDesign.dir/include/moc_packet_transmission.cpp.o.d -o CMakeFiles/AppDesign.dir/include/moc_packet_transmission.cpp.o -c /home/ljy/project/qt_press_image/pressprocess/appdesign_4/build/include/moc_packet_transmission.cpp
 
 CMakeFiles/AppDesign.dir/include/moc_packet_transmission.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/AppDesign.dir/include/moc_packet_transmission.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ljy/Doc1/mycode/1010101010/appdesign_4/build/include/moc_packet_transmission.cpp > CMakeFiles/AppDesign.dir/include/moc_packet_transmission.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ljy/project/qt_press_image/pressprocess/appdesign_4/build/include/moc_packet_transmission.cpp > CMakeFiles/AppDesign.dir/include/moc_packet_transmission.cpp.i
 
 CMakeFiles/AppDesign.dir/include/moc_packet_transmission.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/AppDesign.dir/include/moc_packet_transmission.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ljy/Doc1/mycode/1010101010/appdesign_4/build/include/moc_packet_transmission.cpp -o CMakeFiles/AppDesign.dir/include/moc_packet_transmission.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ljy/project/qt_press_image/pressprocess/appdesign_4/build/include/moc_packet_transmission.cpp -o CMakeFiles/AppDesign.dir/include/moc_packet_transmission.cpp.s
 
 CMakeFiles/AppDesign.dir/include/moc_picture_process.cpp.o: CMakeFiles/AppDesign.dir/flags.make
 CMakeFiles/AppDesign.dir/include/moc_picture_process.cpp.o: include/moc_picture_process.cpp
 CMakeFiles/AppDesign.dir/include/moc_picture_process.cpp.o: CMakeFiles/AppDesign.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ljy/Doc1/mycode/1010101010/appdesign_4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building CXX object CMakeFiles/AppDesign.dir/include/moc_picture_process.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/AppDesign.dir/include/moc_picture_process.cpp.o -MF CMakeFiles/AppDesign.dir/include/moc_picture_process.cpp.o.d -o CMakeFiles/AppDesign.dir/include/moc_picture_process.cpp.o -c /home/ljy/Doc1/mycode/1010101010/appdesign_4/build/include/moc_picture_process.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ljy/project/qt_press_image/pressprocess/appdesign_4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building CXX object CMakeFiles/AppDesign.dir/include/moc_picture_process.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/AppDesign.dir/include/moc_picture_process.cpp.o -MF CMakeFiles/AppDesign.dir/include/moc_picture_process.cpp.o.d -o CMakeFiles/AppDesign.dir/include/moc_picture_process.cpp.o -c /home/ljy/project/qt_press_image/pressprocess/appdesign_4/build/include/moc_picture_process.cpp
 
 CMakeFiles/AppDesign.dir/include/moc_picture_process.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/AppDesign.dir/include/moc_picture_process.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ljy/Doc1/mycode/1010101010/appdesign_4/build/include/moc_picture_process.cpp > CMakeFiles/AppDesign.dir/include/moc_picture_process.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ljy/project/qt_press_image/pressprocess/appdesign_4/build/include/moc_picture_process.cpp > CMakeFiles/AppDesign.dir/include/moc_picture_process.cpp.i
 
 CMakeFiles/AppDesign.dir/include/moc_picture_process.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/AppDesign.dir/include/moc_picture_process.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ljy/Doc1/mycode/1010101010/appdesign_4/build/include/moc_picture_process.cpp -o CMakeFiles/AppDesign.dir/include/moc_picture_process.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ljy/project/qt_press_image/pressprocess/appdesign_4/build/include/moc_picture_process.cpp -o CMakeFiles/AppDesign.dir/include/moc_picture_process.cpp.s
 
 CMakeFiles/AppDesign.dir/include/moc_pinterwave.cpp.o: CMakeFiles/AppDesign.dir/flags.make
 CMakeFiles/AppDesign.dir/include/moc_pinterwave.cpp.o: include/moc_pinterwave.cpp
 CMakeFiles/AppDesign.dir/include/moc_pinterwave.cpp.o: CMakeFiles/AppDesign.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ljy/Doc1/mycode/1010101010/appdesign_4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building CXX object CMakeFiles/AppDesign.dir/include/moc_pinterwave.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/AppDesign.dir/include/moc_pinterwave.cpp.o -MF CMakeFiles/AppDesign.dir/include/moc_pinterwave.cpp.o.d -o CMakeFiles/AppDesign.dir/include/moc_pinterwave.cpp.o -c /home/ljy/Doc1/mycode/1010101010/appdesign_4/build/include/moc_pinterwave.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ljy/project/qt_press_image/pressprocess/appdesign_4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building CXX object CMakeFiles/AppDesign.dir/include/moc_pinterwave.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/AppDesign.dir/include/moc_pinterwave.cpp.o -MF CMakeFiles/AppDesign.dir/include/moc_pinterwave.cpp.o.d -o CMakeFiles/AppDesign.dir/include/moc_pinterwave.cpp.o -c /home/ljy/project/qt_press_image/pressprocess/appdesign_4/build/include/moc_pinterwave.cpp
 
 CMakeFiles/AppDesign.dir/include/moc_pinterwave.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/AppDesign.dir/include/moc_pinterwave.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ljy/Doc1/mycode/1010101010/appdesign_4/build/include/moc_pinterwave.cpp > CMakeFiles/AppDesign.dir/include/moc_pinterwave.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ljy/project/qt_press_image/pressprocess/appdesign_4/build/include/moc_pinterwave.cpp > CMakeFiles/AppDesign.dir/include/moc_pinterwave.cpp.i
 
 CMakeFiles/AppDesign.dir/include/moc_pinterwave.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/AppDesign.dir/include/moc_pinterwave.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ljy/Doc1/mycode/1010101010/appdesign_4/build/include/moc_pinterwave.cpp -o CMakeFiles/AppDesign.dir/include/moc_pinterwave.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ljy/project/qt_press_image/pressprocess/appdesign_4/build/include/moc_pinterwave.cpp -o CMakeFiles/AppDesign.dir/include/moc_pinterwave.cpp.s
 
 CMakeFiles/AppDesign.dir/include/moc_pinterwave1.cpp.o: CMakeFiles/AppDesign.dir/flags.make
 CMakeFiles/AppDesign.dir/include/moc_pinterwave1.cpp.o: include/moc_pinterwave1.cpp
 CMakeFiles/AppDesign.dir/include/moc_pinterwave1.cpp.o: CMakeFiles/AppDesign.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ljy/Doc1/mycode/1010101010/appdesign_4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building CXX object CMakeFiles/AppDesign.dir/include/moc_pinterwave1.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/AppDesign.dir/include/moc_pinterwave1.cpp.o -MF CMakeFiles/AppDesign.dir/include/moc_pinterwave1.cpp.o.d -o CMakeFiles/AppDesign.dir/include/moc_pinterwave1.cpp.o -c /home/ljy/Doc1/mycode/1010101010/appdesign_4/build/include/moc_pinterwave1.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ljy/project/qt_press_image/pressprocess/appdesign_4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building CXX object CMakeFiles/AppDesign.dir/include/moc_pinterwave1.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/AppDesign.dir/include/moc_pinterwave1.cpp.o -MF CMakeFiles/AppDesign.dir/include/moc_pinterwave1.cpp.o.d -o CMakeFiles/AppDesign.dir/include/moc_pinterwave1.cpp.o -c /home/ljy/project/qt_press_image/pressprocess/appdesign_4/build/include/moc_pinterwave1.cpp
 
 CMakeFiles/AppDesign.dir/include/moc_pinterwave1.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/AppDesign.dir/include/moc_pinterwave1.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ljy/Doc1/mycode/1010101010/appdesign_4/build/include/moc_pinterwave1.cpp > CMakeFiles/AppDesign.dir/include/moc_pinterwave1.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ljy/project/qt_press_image/pressprocess/appdesign_4/build/include/moc_pinterwave1.cpp > CMakeFiles/AppDesign.dir/include/moc_pinterwave1.cpp.i
 
 CMakeFiles/AppDesign.dir/include/moc_pinterwave1.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/AppDesign.dir/include/moc_pinterwave1.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ljy/Doc1/mycode/1010101010/appdesign_4/build/include/moc_pinterwave1.cpp -o CMakeFiles/AppDesign.dir/include/moc_pinterwave1.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ljy/project/qt_press_image/pressprocess/appdesign_4/build/include/moc_pinterwave1.cpp -o CMakeFiles/AppDesign.dir/include/moc_pinterwave1.cpp.s
 
 CMakeFiles/AppDesign.dir/include/moc_presssensor.cpp.o: CMakeFiles/AppDesign.dir/flags.make
 CMakeFiles/AppDesign.dir/include/moc_presssensor.cpp.o: include/moc_presssensor.cpp
 CMakeFiles/AppDesign.dir/include/moc_presssensor.cpp.o: CMakeFiles/AppDesign.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ljy/Doc1/mycode/1010101010/appdesign_4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building CXX object CMakeFiles/AppDesign.dir/include/moc_presssensor.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/AppDesign.dir/include/moc_presssensor.cpp.o -MF CMakeFiles/AppDesign.dir/include/moc_presssensor.cpp.o.d -o CMakeFiles/AppDesign.dir/include/moc_presssensor.cpp.o -c /home/ljy/Doc1/mycode/1010101010/appdesign_4/build/include/moc_presssensor.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ljy/project/qt_press_image/pressprocess/appdesign_4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building CXX object CMakeFiles/AppDesign.dir/include/moc_presssensor.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/AppDesign.dir/include/moc_presssensor.cpp.o -MF CMakeFiles/AppDesign.dir/include/moc_presssensor.cpp.o.d -o CMakeFiles/AppDesign.dir/include/moc_presssensor.cpp.o -c /home/ljy/project/qt_press_image/pressprocess/appdesign_4/build/include/moc_presssensor.cpp
 
 CMakeFiles/AppDesign.dir/include/moc_presssensor.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/AppDesign.dir/include/moc_presssensor.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ljy/Doc1/mycode/1010101010/appdesign_4/build/include/moc_presssensor.cpp > CMakeFiles/AppDesign.dir/include/moc_presssensor.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ljy/project/qt_press_image/pressprocess/appdesign_4/build/include/moc_presssensor.cpp > CMakeFiles/AppDesign.dir/include/moc_presssensor.cpp.i
 
 CMakeFiles/AppDesign.dir/include/moc_presssensor.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/AppDesign.dir/include/moc_presssensor.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ljy/Doc1/mycode/1010101010/appdesign_4/build/include/moc_presssensor.cpp -o CMakeFiles/AppDesign.dir/include/moc_presssensor.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ljy/project/qt_press_image/pressprocess/appdesign_4/build/include/moc_presssensor.cpp -o CMakeFiles/AppDesign.dir/include/moc_presssensor.cpp.s
 
 CMakeFiles/AppDesign.dir/include/moc_worker.cpp.o: CMakeFiles/AppDesign.dir/flags.make
 CMakeFiles/AppDesign.dir/include/moc_worker.cpp.o: include/moc_worker.cpp
 CMakeFiles/AppDesign.dir/include/moc_worker.cpp.o: CMakeFiles/AppDesign.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ljy/Doc1/mycode/1010101010/appdesign_4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building CXX object CMakeFiles/AppDesign.dir/include/moc_worker.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/AppDesign.dir/include/moc_worker.cpp.o -MF CMakeFiles/AppDesign.dir/include/moc_worker.cpp.o.d -o CMakeFiles/AppDesign.dir/include/moc_worker.cpp.o -c /home/ljy/Doc1/mycode/1010101010/appdesign_4/build/include/moc_worker.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ljy/project/qt_press_image/pressprocess/appdesign_4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building CXX object CMakeFiles/AppDesign.dir/include/moc_worker.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/AppDesign.dir/include/moc_worker.cpp.o -MF CMakeFiles/AppDesign.dir/include/moc_worker.cpp.o.d -o CMakeFiles/AppDesign.dir/include/moc_worker.cpp.o -c /home/ljy/project/qt_press_image/pressprocess/appdesign_4/build/include/moc_worker.cpp
 
 CMakeFiles/AppDesign.dir/include/moc_worker.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/AppDesign.dir/include/moc_worker.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ljy/Doc1/mycode/1010101010/appdesign_4/build/include/moc_worker.cpp > CMakeFiles/AppDesign.dir/include/moc_worker.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ljy/project/qt_press_image/pressprocess/appdesign_4/build/include/moc_worker.cpp > CMakeFiles/AppDesign.dir/include/moc_worker.cpp.i
 
 CMakeFiles/AppDesign.dir/include/moc_worker.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/AppDesign.dir/include/moc_worker.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ljy/Doc1/mycode/1010101010/appdesign_4/build/include/moc_worker.cpp -o CMakeFiles/AppDesign.dir/include/moc_worker.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ljy/project/qt_press_image/pressprocess/appdesign_4/build/include/moc_worker.cpp -o CMakeFiles/AppDesign.dir/include/moc_worker.cpp.s
 
 # Object files for target AppDesign
 AppDesign_OBJECTS = \
@@ -539,19 +539,18 @@ AppDesign: /home/ljy/software/opencv-3.4.14/build/lib/libopencv_core.so
 AppDesign: /home/ljy/software/opencv-3.4.14/build/lib/libopencv_imgproc.so
 AppDesign: /home/ljy/software/opencv-3.4.14/build/lib/libopencv_highgui.so
 AppDesign: /home/ljy/software/opencv-3.4.14/build/lib/libopencv_imgcodecs.so
-AppDesign: /home/ljy/software/onnxruntime/build/Linux/Release/libmsc.so
 AppDesign: /home/ljy/software/onnxruntime/build/Linux/Release/libonnxruntime.so
 AppDesign: /home/ljy/software/onnxruntime/build/Linux/Release/libonnxruntime_providers_shared.so
 AppDesign: /home/ljy/software/onnxruntime/build/Linux/Release/libonnxruntime_providers_cuda.so
 AppDesign: /home/ljy/software/onnxruntime/build/Linux/Release/libcustom_op_library.so
 AppDesign: /home/ljy/software/onnxruntime/build/Linux/Release/libonnxruntime_providers_tensorrt.so
 AppDesign: /home/ljy/software/onnxruntime/build/Linux/Release/libnvonnxparser.so.8.4.1
-AppDesign: /home/ljy/Doc1/mycode/4/appdesign_4/libs/x64/libmsc.so
+AppDesign: /home/ljy/software/onnxruntime/build/Linux/Release/libmsc.so
 AppDesign: /home/ljy/Qt5.14.2/5.14.2/gcc_64/lib/libQt5Widgets.so.5.14.2
 AppDesign: /home/ljy/Qt5.14.2/5.14.2/gcc_64/lib/libQt5Gui.so.5.14.2
 AppDesign: /home/ljy/Qt5.14.2/5.14.2/gcc_64/lib/libQt5Core.so.5.14.2
 AppDesign: CMakeFiles/AppDesign.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/ljy/Doc1/mycode/1010101010/appdesign_4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Linking CXX executable AppDesign"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/ljy/project/qt_press_image/pressprocess/appdesign_4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Linking CXX executable AppDesign"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/AppDesign.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -575,6 +574,6 @@ CMakeFiles/AppDesign.dir/depend: include/moc_pinterwave1.cpp
 CMakeFiles/AppDesign.dir/depend: include/moc_presssensor.cpp
 CMakeFiles/AppDesign.dir/depend: include/moc_worker.cpp
 CMakeFiles/AppDesign.dir/depend: ui_mainwindow.h
-	cd /home/ljy/Doc1/mycode/1010101010/appdesign_4/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ljy/Doc1/mycode/1010101010/appdesign_4 /home/ljy/Doc1/mycode/1010101010/appdesign_4 /home/ljy/Doc1/mycode/1010101010/appdesign_4/build /home/ljy/Doc1/mycode/1010101010/appdesign_4/build /home/ljy/Doc1/mycode/1010101010/appdesign_4/build/CMakeFiles/AppDesign.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/ljy/project/qt_press_image/pressprocess/appdesign_4/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ljy/project/qt_press_image/pressprocess/appdesign_4 /home/ljy/project/qt_press_image/pressprocess/appdesign_4 /home/ljy/project/qt_press_image/pressprocess/appdesign_4/build /home/ljy/project/qt_press_image/pressprocess/appdesign_4/build /home/ljy/project/qt_press_image/pressprocess/appdesign_4/build/CMakeFiles/AppDesign.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/AppDesign.dir/depend
 

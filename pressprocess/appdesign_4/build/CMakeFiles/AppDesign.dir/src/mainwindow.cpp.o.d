@@ -1,7 +1,7 @@
 CMakeFiles/AppDesign.dir/src/mainwindow.cpp.o: \
- /home/ljy/Doc1/mycode/1010101010/appdesign_4/src/mainwindow.cpp \
+ /home/ljy/project/qt_press_image/pressprocess/appdesign_4/src/mainwindow.cpp \
  /usr/include/stdc-predef.h \
- /home/ljy/Doc1/mycode/1010101010/appdesign_4/include/mainwindow.h \
+ /home/ljy/project/qt_press_image/pressprocess/appdesign_4/include/mainwindow.h \
  /home/ljy/Qt5.14.2/5.14.2/gcc_64/include/QtWidgets/QMainWindow \
  /home/ljy/Qt5.14.2/5.14.2/gcc_64/include/QtWidgets/qmainwindow.h \
  /home/ljy/Qt5.14.2/5.14.2/gcc_64/include/QtWidgets/qtwidgetsglobal.h \
@@ -475,7 +475,7 @@ CMakeFiles/AppDesign.dir/src/mainwindow.cpp.o: \
  /usr/local/include/opencv2/videostab/deblurring.hpp \
  /usr/local/include/opencv2/videostab/wobble_suppression.hpp \
  /usr/local/include/opencv2/videostab/ring_buffer.hpp \
- /home/ljy/Doc1/mycode/1010101010/appdesign_4/include/grid_layout_panel.h \
+ /home/ljy/project/qt_press_image/pressprocess/appdesign_4/include/grid_layout_panel.h \
  /home/ljy/Qt5.14.2/5.14.2/gcc_64/include/QtWidgets/QWidget \
  /home/ljy/Qt5.14.2/5.14.2/gcc_64/include/QtWidgets/qwidget.h \
  /home/ljy/Qt5.14.2/5.14.2/gcc_64/include/QtGui/QPixmap \
@@ -504,8 +504,8 @@ CMakeFiles/AppDesign.dir/src/mainwindow.cpp.o: \
  /home/ljy/Qt5.14.2/5.14.2/gcc_64/include/QtWidgets/qabstractbutton.h \
  /home/ljy/Qt5.14.2/5.14.2/gcc_64/include/QtGui/QPainter \
  /home/ljy/Qt5.14.2/5.14.2/gcc_64/include/QtGui/qpainter.h \
- /home/ljy/Doc1/mycode/1010101010/appdesign_4/include/picture_process.h \
- /home/ljy/Doc1/mycode/1010101010/appdesign_4/include/presssensor.h \
+ /home/ljy/project/qt_press_image/pressprocess/appdesign_4/include/picture_process.h \
+ /home/ljy/project/qt_press_image/pressprocess/appdesign_4/include/presssensor.h \
  /home/ljy/Qt5.14.2/5.14.2/gcc_64/include/QtCore/QObject \
  /home/ljy/Qt5.14.2/5.14.2/gcc_64/include/QtCore/qobject.h \
  /home/ljy/Qt5.14.2/5.14.2/gcc_64/include/QtNetwork/QTcpServer \
@@ -531,7 +531,7 @@ CMakeFiles/AppDesign.dir/src/mainwindow.cpp.o: \
  /home/ljy/Qt5.14.2/5.14.2/gcc_64/include/QtCore/qdatetime.h \
  /home/ljy/Qt5.14.2/5.14.2/gcc_64/include/QtCore/QMetaType \
  /home/ljy/Qt5.14.2/5.14.2/gcc_64/include/QtCore/qmetatype.h \
- /home/ljy/Doc1/mycode/1010101010/appdesign_4/include/audioplayer.h \
+ /home/ljy/project/qt_press_image/pressprocess/appdesign_4/include/audioplayer.h \
  /home/ljy/Qt5.14.2/5.14.2/gcc_64/include/QtMultimedia/QMediaPlayer \
  /home/ljy/Qt5.14.2/5.14.2/gcc_64/include/QtMultimedia/qmediaplayer.h \
  /home/ljy/Qt5.14.2/5.14.2/gcc_64/include/QtMultimedia/qmediaobject.h \
@@ -553,7 +553,7 @@ CMakeFiles/AppDesign.dir/src/mainwindow.cpp.o: \
  /home/ljy/Qt5.14.2/5.14.2/gcc_64/include/QtNetwork/qnetworkconfiguration.h \
  /home/ljy/Qt5.14.2/5.14.2/gcc_64/include/QtCore/QDebug \
  /home/ljy/Qt5.14.2/5.14.2/gcc_64/include/QtCore/qdebug.h \
- /home/ljy/Doc1/mycode/1010101010/appdesign_4/build/ui_mainwindow.h \
+ /home/ljy/project/qt_press_image/pressprocess/appdesign_4/build/ui_mainwindow.h \
  /home/ljy/Qt5.14.2/5.14.2/gcc_64/include/QtWidgets/QApplication \
  /home/ljy/Qt5.14.2/5.14.2/gcc_64/include/QtWidgets/qapplication.h \
  /home/ljy/Qt5.14.2/5.14.2/gcc_64/include/QtCore/qcoreapplication.h \
@@ -575,18 +575,18 @@ CMakeFiles/AppDesign.dir/src/mainwindow.cpp.o: \
  /home/ljy/Qt5.14.2/5.14.2/gcc_64/include/QtWidgets/qstatusbar.h \
  /home/ljy/Qt5.14.2/5.14.2/gcc_64/include/QtWidgets/QTextEdit \
  /home/ljy/Qt5.14.2/5.14.2/gcc_64/include/QtWidgets/QWidget \
- /home/ljy/Doc1/mycode/1010101010/appdesign_4/include/picture_process.h \
- /home/ljy/Doc1/mycode/1010101010/appdesign_4/include/grid_layout_panel.h \
+ /home/ljy/project/qt_press_image/pressprocess/appdesign_4/include/picture_process.h \
+ /home/ljy/project/qt_press_image/pressprocess/appdesign_4/include/grid_layout_panel.h \
  /home/ljy/Qt5.14.2/5.14.2/gcc_64/include/QtCore/QBuffer \
  /home/ljy/Qt5.14.2/5.14.2/gcc_64/include/QtCore/qbuffer.h \
  /home/ljy/Qt5.14.2/5.14.2/gcc_64/include/QtGui/QPen \
  /home/ljy/Qt5.14.2/5.14.2/gcc_64/include/QtGui/qpen.h \
  /home/ljy/Qt5.14.2/5.14.2/gcc_64/include/QtGui/QBrush \
  /home/ljy/Qt5.14.2/5.14.2/gcc_64/include/QtGui/qbrush.h \
- /home/ljy/Doc1/mycode/1010101010/appdesign_4/include/pinterwave1.h \
+ /home/ljy/project/qt_press_image/pressprocess/appdesign_4/include/pinterwave1.h \
  /home/ljy/Qt5.14.2/5.14.2/gcc_64/include/QtCore/QPoint \
  /home/ljy/Qt5.14.2/5.14.2/gcc_64/include/QtCore/qpoint.h \
- /home/ljy/Doc1/mycode/1010101010/appdesign_4/include/mainwindow.h \
+ /home/ljy/project/qt_press_image/pressprocess/appdesign_4/include/mainwindow.h \
  /home/ljy/Qt5.14.2/5.14.2/gcc_64/include/QtGui/QTextCursor \
  /home/ljy/Qt5.14.2/5.14.2/gcc_64/include/QtGui/qtextcursor.h \
  /home/ljy/Qt5.14.2/5.14.2/gcc_64/include/QtGui/QTextCharFormat \
@@ -594,12 +594,12 @@ CMakeFiles/AppDesign.dir/src/mainwindow.cpp.o: \
  /home/ljy/Qt5.14.2/5.14.2/gcc_64/include/QtCore/QTimer \
  /home/ljy/Qt5.14.2/5.14.2/gcc_64/include/QtCore/qtimer.h \
  /home/ljy/Qt5.14.2/5.14.2/gcc_64/include/QtCore/qbasictimer.h \
- /home/ljy/Doc1/mycode/1010101010/appdesign_4/include/worker.h \
+ /home/ljy/project/qt_press_image/pressprocess/appdesign_4/include/worker.h \
  /home/ljy/software/onnxruntime/include/onnxruntime/core/providers/cpu/cpu_provider_factory.h \
  /home/ljy/software/onnxruntime/include/onnxruntime/core/session/onnxruntime_c_api.h \
  /home/ljy/software/onnxruntime/include/onnxruntime/core/session/onnxruntime_cxx_api.h \
  /home/ljy/software/onnxruntime/include/onnxruntime/core/session/onnxruntime_cxx_inline.h \
- /home/ljy/Doc1/mycode/1010101010/appdesign_4/include/mysql_test.h \
+ /home/ljy/project/qt_press_image/pressprocess/appdesign_4/include/mysql_test.h \
  /home/ljy/Qt5.14.2/5.14.2/gcc_64/include/QtSql/QSqlDatabase \
  /home/ljy/Qt5.14.2/5.14.2/gcc_64/include/QtSql/qsqldatabase.h \
  /home/ljy/Qt5.14.2/5.14.2/gcc_64/include/QtSql/qtsqlglobal.h \
@@ -609,8 +609,8 @@ CMakeFiles/AppDesign.dir/src/mainwindow.cpp.o: \
  /home/ljy/Qt5.14.2/5.14.2/gcc_64/include/QtSql/qsqldatabase.h \
  /home/ljy/Qt5.14.2/5.14.2/gcc_64/include/QtSql/QSqlRecord \
  /home/ljy/Qt5.14.2/5.14.2/gcc_64/include/QtSql/qsqlrecord.h \
- /home/ljy/Doc1/mycode/1010101010/appdesign_4/include/pinterwave.h \
- /home/ljy/Doc1/mycode/1010101010/appdesign_4/include/audioplayer.h \
- /home/ljy/Doc1/mycode/1010101010/appdesign_4/include/databaseworker.h \
+ /home/ljy/project/qt_press_image/pressprocess/appdesign_4/include/pinterwave.h \
+ /home/ljy/project/qt_press_image/pressprocess/appdesign_4/include/audioplayer.h \
+ /home/ljy/project/qt_press_image/pressprocess/appdesign_4/include/databaseworker.h \
  /home/ljy/Qt5.14.2/5.14.2/gcc_64/include/QtWidgets/QMessageBox \
  /home/ljy/Qt5.14.2/5.14.2/gcc_64/include/QtWidgets/qmessagebox.h

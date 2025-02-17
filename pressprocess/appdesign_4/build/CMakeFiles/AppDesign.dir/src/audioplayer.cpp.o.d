@@ -1,7 +1,7 @@
 CMakeFiles/AppDesign.dir/src/audioplayer.cpp.o: \
- /home/ljy/Doc1/mycode/1010101010/appdesign_4/src/audioplayer.cpp \
+ /home/ljy/project/qt_press_image/pressprocess/appdesign_4/src/audioplayer.cpp \
  /usr/include/stdc-predef.h \
- /home/ljy/Doc1/mycode/1010101010/appdesign_4/include/audioplayer.h \
+ /home/ljy/project/qt_press_image/pressprocess/appdesign_4/include/audioplayer.h \
  /home/ljy/Qt5.14.2/5.14.2/gcc_64/include/QtCore/QObject \
  /home/ljy/Qt5.14.2/5.14.2/gcc_64/include/QtCore/qobject.h \
  /home/ljy/Qt5.14.2/5.14.2/gcc_64/include/QtCore/qobjectdefs.h \

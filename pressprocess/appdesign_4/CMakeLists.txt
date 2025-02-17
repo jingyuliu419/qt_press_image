@@ -4,7 +4,10 @@ project(AppDesign)
 
 set(CMAKE_CXX_STANDARD 17)
 
-
+# Enable debug information
+set(CMAKE_BUILD_TYPE Debug)
+set(CMAKE_CXX_FLAGS_DEBUG "${CMAKE_CXX_FLAGS_DEBUG} -g")
+    
 # Find Qt libraries
 find_package(Qt5 COMPONENTS Core Gui Widgets Multimedia Network Charts Sql REQUIRED)
 
@@ -38,34 +41,31 @@ set(HEADERS
     include/pinterwave1.h
     include/presssensor.h
     include/worker.h
-    #include/qtts.h
 )
 
 set(FORMS
     forms/mainwindow.ui
 )
 
-# Include directories
-include_directories(
+# Define executable before setting directories or linking libraries
+add_executable(AppDesign ${SOURCES} ${HEADERS} ${FORMS})
+
+# Include directories (configure after target definition)
+target_include_directories(AppDesign PRIVATE
     ${CMAKE_BINARY_DIR}
     /usr/local/include
     /usr/local/include/opencv
     /usr/local/include/opencv2
     /home/ljy/software/onnxruntime/include/onnxruntime/core/session
     /home/ljy/software/onnxruntime/include/
-    /home/ljy/Doc1/mycode/1010101010/appdesign_4/include  # Add this line to include the current project directory
-    # /home/liu/Doc/Doc1/mycode/4/appdesign_4/include
+    /home/ljy/project/qt_press_image/pressprocess/appdesign_4/include
 )
 
-# Link directories
-link_directories(
+# Link directories (configure after target definition)
+target_link_directories(AppDesign PRIVATE
     /home/ljy/software/opencv-3.4.14/build/lib
     /home/ljy/software/onnxruntime/build/Linux/Release
-    /home/ljy/Doc1/mycode/4/appdesign_4/libs/x64
 )
-
-# Add executable
-add_executable(AppDesign ${SOURCES} ${HEADERS} ${FORMS})
 
 # Link libraries
 target_link_libraries(AppDesign
@@ -79,15 +79,21 @@ target_link_libraries(AppDesign
     /home/ljy/software/opencv-3.4.14/build/lib/libopencv_core.so
     /home/ljy/software/opencv-3.4.14/build/lib/libopencv_imgproc.so
     /home/ljy/software/opencv-3.4.14/build/lib/libopencv_highgui.so
-    /home/ljy/software/opencv-3.4.14/build/lib/libopencv_imgcodecs.so  # Add this line
-    /home/ljy/software/onnxruntime/build/Linux/Release/libmsc.so
+    /home/ljy/software/opencv-3.4.14/build/lib/libopencv_imgcodecs.so
     /home/ljy/software/onnxruntime/build/Linux/Release/libonnxruntime.so
     /home/ljy/software/onnxruntime/build/Linux/Release/libonnxruntime_providers_shared.so
     /home/ljy/software/onnxruntime/build/Linux/Release/libonnxruntime_providers_cuda.so
     /home/ljy/software/onnxruntime/build/Linux/Release/libcustom_op_library.so
     /home/ljy/software/onnxruntime/build/Linux/Release/libonnxruntime_providers_tensorrt.so
     /home/ljy/software/onnxruntime/build/Linux/Release/libnvonnxparser.so.8.4.1
-    /home/ljy/Doc1/mycode/4/appdesign_4/libs/x64/libmsc.so
+    /home/ljy/software/onnxruntime/build/Linux/Release/libmsc.so
+)
+
+# Set RPATH for runtime library paths
+set_target_properties(AppDesign PROPERTIES
+    BUILD_RPATH "/home/ljy/software/opencv-3.4.14/build/lib;/home/ljy/software/onnxruntime/build/Linux/Release"
+    INSTALL_RPATH "/home/ljy/software/opencv-3.4.14/build/lib;/home/ljy/software/onnxruntime/build/Linux/Release"
+    CXX_STANDARD 17
 )
 
 # Process UI files

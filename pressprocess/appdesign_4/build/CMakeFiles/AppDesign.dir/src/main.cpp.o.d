@@ -1,7 +1,7 @@
 CMakeFiles/AppDesign.dir/src/main.cpp.o: \
- /home/ljy/Doc1/mycode/1010101010/appdesign_4/src/main.cpp \
+ /home/ljy/project/qt_press_image/pressprocess/appdesign_4/src/main.cpp \
  /usr/include/stdc-predef.h \
- /home/ljy/Doc1/mycode/1010101010/appdesign_4/include/mainwindow.h \
+ /home/ljy/project/qt_press_image/pressprocess/appdesign_4/include/mainwindow.h \
  /home/ljy/Qt5.14.2/5.14.2/gcc_64/include/QtWidgets/QMainWindow \
  /home/ljy/Qt5.14.2/5.14.2/gcc_64/include/QtWidgets/qmainwindow.h \
  /home/ljy/Qt5.14.2/5.14.2/gcc_64/include/QtWidgets/qtwidgetsglobal.h \
@@ -475,7 +475,7 @@ CMakeFiles/AppDesign.dir/src/main.cpp.o: \
  /usr/local/include/opencv2/videostab/deblurring.hpp \
  /usr/local/include/opencv2/videostab/wobble_suppression.hpp \
  /usr/local/include/opencv2/videostab/ring_buffer.hpp \
- /home/ljy/Doc1/mycode/1010101010/appdesign_4/include/grid_layout_panel.h \
+ /home/ljy/project/qt_press_image/pressprocess/appdesign_4/include/grid_layout_panel.h \
  /home/ljy/Qt5.14.2/5.14.2/gcc_64/include/QtWidgets/QWidget \
  /home/ljy/Qt5.14.2/5.14.2/gcc_64/include/QtWidgets/qwidget.h \
  /home/ljy/Qt5.14.2/5.14.2/gcc_64/include/QtGui/QPixmap \
@@ -504,8 +504,8 @@ CMakeFiles/AppDesign.dir/src/main.cpp.o: \
  /home/ljy/Qt5.14.2/5.14.2/gcc_64/include/QtWidgets/qabstractbutton.h \
  /home/ljy/Qt5.14.2/5.14.2/gcc_64/include/QtGui/QPainter \
  /home/ljy/Qt5.14.2/5.14.2/gcc_64/include/QtGui/qpainter.h \
- /home/ljy/Doc1/mycode/1010101010/appdesign_4/include/picture_process.h \
- /home/ljy/Doc1/mycode/1010101010/appdesign_4/include/presssensor.h \
+ /home/ljy/project/qt_press_image/pressprocess/appdesign_4/include/picture_process.h \
+ /home/ljy/project/qt_press_image/pressprocess/appdesign_4/include/presssensor.h \
  /home/ljy/Qt5.14.2/5.14.2/gcc_64/include/QtCore/QObject \
  /home/ljy/Qt5.14.2/5.14.2/gcc_64/include/QtCore/qobject.h \
  /home/ljy/Qt5.14.2/5.14.2/gcc_64/include/QtNetwork/QTcpServer \
@@ -531,7 +531,7 @@ CMakeFiles/AppDesign.dir/src/main.cpp.o: \
  /home/ljy/Qt5.14.2/5.14.2/gcc_64/include/QtCore/qdatetime.h \
  /home/ljy/Qt5.14.2/5.14.2/gcc_64/include/QtCore/QMetaType \
  /home/ljy/Qt5.14.2/5.14.2/gcc_64/include/QtCore/qmetatype.h \
- /home/ljy/Doc1/mycode/1010101010/appdesign_4/include/audioplayer.h \
+ /home/ljy/project/qt_press_image/pressprocess/appdesign_4/include/audioplayer.h \
  /home/ljy/Qt5.14.2/5.14.2/gcc_64/include/QtMultimedia/QMediaPlayer \
  /home/ljy/Qt5.14.2/5.14.2/gcc_64/include/QtMultimedia/qmediaplayer.h \
  /home/ljy/Qt5.14.2/5.14.2/gcc_64/include/QtMultimedia/qmediaobject.h \

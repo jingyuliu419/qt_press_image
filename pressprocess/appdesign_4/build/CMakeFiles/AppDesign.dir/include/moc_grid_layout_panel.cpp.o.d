@@ -1,5 +1,5 @@
 CMakeFiles/AppDesign.dir/include/moc_grid_layout_panel.cpp.o: \
- /home/ljy/Doc1/mycode/1010101010/appdesign_4/build/include/moc_grid_layout_panel.cpp \
+ /home/ljy/project/qt_press_image/pressprocess/appdesign_4/build/include/moc_grid_layout_panel.cpp \
  /usr/include/stdc-predef.h /usr/include/c++/9/memory \
  /usr/include/c++/9/bits/stl_algobase.h \
  /usr/include/x86_64-linux-gnu/c++/9/bits/c++config.h \
@@ -141,7 +141,7 @@ CMakeFiles/AppDesign.dir/include/moc_grid_layout_panel.cpp.o: \
  /usr/include/c++/9/backward/auto_ptr.h \
  /usr/include/c++/9/pstl/glue_memory_defs.h \
  /usr/include/c++/9/pstl/execution_defs.h \
- /home/ljy/Doc1/mycode/1010101010/appdesign_4/build/include/../../include/grid_layout_panel.h \
+ /home/ljy/project/qt_press_image/pressprocess/appdesign_4/build/include/../../include/grid_layout_panel.h \
  /home/ljy/Qt5.14.2/5.14.2/gcc_64/include/QtWidgets/QWidget \
  /home/ljy/Qt5.14.2/5.14.2/gcc_64/include/QtWidgets/qwidget.h \
  /home/ljy/Qt5.14.2/5.14.2/gcc_64/include/QtWidgets/qtwidgetsglobal.h \

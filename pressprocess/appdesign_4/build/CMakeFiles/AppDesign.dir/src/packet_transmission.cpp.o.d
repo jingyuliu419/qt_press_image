@@ -1,5 +1,5 @@
 CMakeFiles/AppDesign.dir/src/packet_transmission.cpp.o: \
- /home/ljy/Doc1/mycode/1010101010/appdesign_4/src/packet_transmission.cpp \
+ /home/ljy/project/qt_press_image/pressprocess/appdesign_4/src/packet_transmission.cpp \
  /usr/include/stdc-predef.h /usr/include/stdio.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/x86_64-linux-gnu/sys/cdefs.h \
@@ -60,7 +60,7 @@ CMakeFiles/AppDesign.dir/src/packet_transmission.cpp.o: \
  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
  /usr/include/c++/9/bits/std_abs.h /usr/include/string.h \
  /usr/include/strings.h \
- /home/ljy/Doc1/mycode/1010101010/appdesign_4/include/packet_transmission.h \
+ /home/ljy/project/qt_press_image/pressprocess/appdesign_4/include/packet_transmission.h \
  /usr/include/c++/9/iostream /usr/include/c++/9/ostream \
  /usr/include/c++/9/ios /usr/include/c++/9/iosfwd \
  /usr/include/c++/9/bits/stringfwd.h /usr/include/c++/9/bits/memoryfwd.h \

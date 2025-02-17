@@ -1,5 +1,5 @@
 CMakeFiles/AppDesign.dir/src/findpeaks.cpp.o: \
- /home/ljy/Doc1/mycode/1010101010/appdesign_4/src/findpeaks.cpp \
+ /home/ljy/project/qt_press_image/pressprocess/appdesign_4/src/findpeaks.cpp \
  /usr/include/stdc-predef.h /usr/include/c++/9/numeric \
  /usr/include/x86_64-linux-gnu/c++/9/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/9/bits/os_defines.h \
@@ -147,4 +147,4 @@ CMakeFiles/AppDesign.dir/src/findpeaks.cpp.o: \
  /usr/include/c++/9/bits/stl_uninitialized.h \
  /usr/include/c++/9/bits/stl_vector.h \
  /usr/include/c++/9/bits/stl_bvector.h /usr/include/c++/9/bits/vector.tcc \
- /home/ljy/Doc1/mycode/1010101010/appdesign_4/include/findpeaks.h
+ /home/ljy/project/qt_press_image/pressprocess/appdesign_4/include/findpeaks.h
